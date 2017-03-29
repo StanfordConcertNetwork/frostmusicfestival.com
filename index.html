@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="container splash-banner">
+    <a href="https://www.facebook.com/events/928300317272746/" target="blank">
+        <div class="cover-photo">
+            <h1>6th Annual Frost Music &amp; Arts Festival</h1>
+            <h2>Saturday, May 20, 2017</h2>
+            <p>Save the Date!</p>
+        </div>
+    </a>
+</div>
+
+<div class="splash-bird"></div>
+
+<div class="splash-bottom"></div>
+
+<div class="carousel slide">
+    <div class="carousel-inner">
+        {% assign first = true %}
+        {% for image in site.static_files %}
+            {% if image.path contains 'img/splashes' %}
+                <div class="item {% if first %} active {% endif %}">
+                    <div class="carousel-fill" style="background-image:url({{ image.path }});"></div>
+                </div>
+                {% assign first = false %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+<script>$('.carousel').carousel({pause: false})</script>

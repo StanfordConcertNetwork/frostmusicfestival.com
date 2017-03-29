@@ -1,0 +1,77 @@
+/* CAROUSEL */
+
+html {
+    position: relative;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, sans-serif;
+    background: none;
+}
+
+.splash-banner {
+    height: 80%;
+}
+
+.splash-banner .cover-photo {
+    width: 100%;
+    height: 100%;
+    background: url(/assets/img/banner.jpg) center center no-repeat;
+    background-size: contain;
+}
+
+.splash-banner .cover-photo h1,
+.splash-banner .cover-photo h2,
+.splash-banner .cover-photo p {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.splash-bird {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    height: 45%;
+    width: 45%;
+    background: url(/assets/img/bird.png) bottom right no-repeat;
+    background-size: contain;
+}
+
+.splash-bottom {
+    height: 20%;
+}
+
+.carousel {
+    z-index: -1;
+}
+
+.carousel,
+.carousel-inner,
+.item,
+.carousel-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.carousel-inner > .item {
+    position: absolute;
+}
+
+.carousel-fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
