@@ -59,8 +59,9 @@ h3 {
     padding-right: 10px;
 }
 
-.headliner-bump {
+.date {
     height: 10%;
+    text-align: center;
 }
 
 .headliner {
@@ -190,17 +191,27 @@ h3 {
 }
 
 .name h1 {
+    height: 170px;
+    margin-top: 15px;
     color: black;
     text-indent: -99999px;
     background: url(/assets/img/logo.jpg) center center no-repeat;
     background-size: contain;
-    height: 180px;
-    margin-top: 10px;
+}
+
+.page {
+    margin-top: 30px;
 }
 
 /* DIRECTIONS */
 
-.map {
+img.map {
+    max-width: 100%;
+}
+
+/* ARTISTS */
+
+img.zedd {
     max-width: 100%;
 }
 
