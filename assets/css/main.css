@@ -11,8 +11,14 @@ html {
 }
 
 body {
-    font-family: 'Good Times', -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, sans-serif;
+    font-family: -apple-system, "helvetica neue", helvetica, sans-serif;
     background: none;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "good times";
 }
 
 /* SPLASH */
@@ -112,7 +118,7 @@ body {
 
 .navbar .navbar-nav li a {
     color: white;
-    font-size: 40px;
+    font-family: "good times";
     display: inline-block;
     vertical-align: middle;
 }
@@ -179,12 +185,23 @@ body {
 /* ALL NON-SPLASH */
 
 .name {
-    height: 100px;
+    height: 200px;
     text-align: center;
 }
 
 .name h1 {
     color: black;
+    text-indent: -99999px;
+    background: url(/assets/img/logo.jpg) center center no-repeat;
+    background-size: contain;
+    height: 180px;
+    margin-top: 10px;
+}
+
+/* DIRECTIONS */
+
+.map {
+    max-width: 100%;
 }
 
 /* BIRDS */
