@@ -12,7 +12,7 @@
 
 html {
     position: relative;
-    min-width: 612px; /* LOWER BOUND ON PAGE WIDTH */
+    min-width: 500px; /* LOWER BOUND ON PAGE WIDTH */
 }
 
 body,
@@ -33,6 +33,10 @@ h3 {
 
 /* SPLASH */
 
+.splash {
+    height: 100%;
+}
+
 .title,
 .headliner {
     text-shadow:
@@ -43,11 +47,11 @@ h3 {
 }
 
 .title-bump {
-    height: 10%;
+    height: 3%;
 }
 
 .title {
-    height: 35%;
+    height: 37%;
 }
 
 .title h1 {
@@ -69,8 +73,12 @@ h3 {
     padding-right: 10px;
 }
 
+.presents {
+    text-align: center;
+}
+
 .date {
-    height: 10%;
+    height: 13%;
     text-align: center;
 }
 
@@ -142,55 +150,83 @@ h3 {
 }
 
 @media (max-width: 767px) {
-    .title h1 .mid {font-size: 100px;}
+    .splash {min-height: 600px;}
+
+    .title h1 .mid {font-size: 120px;}
     .title h1 .top,
     .title h1 .bot {font-size: 20px;}
 
     .headliner h1 {height: 100px;}
 
+    .presents,
+    .date h3 {font-size: 15px;}
+
     .navbar .navbar-nav li {margin: 0 0;}
-    .navbar .navbar-nav li a {font-size: 17px;}
+    .navbar .navbar-nav li a {font-size: 17px; padding: 0 5px;}
 
     .name h1 {font-size: 30px; margin-top: 40px;}
+
+    .bird-right {display: none;}
 }
 
 @media (min-width: 768px) {
-    .title h1 .mid {font-size: 120px;}
+    .splash {min-height: 675px;}
+
+    .title h1 .mid {font-size: 150px;}
     .title h1 .top,
     .title h1 .bot {font-size: 30px;}
 
     .headliner h1 {height: 130px;}
 
+    .presents,
+    .date h3 {font-size: 20px;}
+
     .navbar .navbar-nav li {margin: 0 0;}
     .navbar .navbar-nav li a {font-size: 25px;}
 
     .name h1 {font-size: 35px; margin-top: 35px;}
+
+    .bird-right {display: none;}
 }
 
 @media (min-width: 992px) {
+    .splash {min-height: 750px;}
+
     .title h1 .mid {font-size: 180px;}
     .title h1 .top,
     .title h1 .bot {font-size: 40px;}
 
     .headliner h1 {height: 160px;}
 
+    .presents,
+    .date h3 {font-size: 20px;}
+
     .navbar .navbar-nav li {margin: 0 20px;}
     .navbar .navbar-nav li a {font-size: 30px;}
 
     .name h1 {font-size: 45px; margin-top: 30px;}
+
+    .bird-right {display: initial;}
 }
 
 @media (min-width: 1200px) {
-    .title h1 .mid {font-size: 220px;}
+    .splash {min-height: 850px;}
+
+    .title h1 .mid {font-size: 210px;}
     .title h1 .top,
     .title h1 .bot {font-size: 50px;}
 
     .headliner h1 {height: 200px;}
 
+    .presents,
+    .date h3 {font-size: 25px;}
+
     .navbar .navbar-nav li {margin: 0 30px;}
     .navbar .navbar-nav li a {font-size: 35px;}
 
     .name h1 {font-size: 50px; margin-top: 25px;}
+
+    .bird-right {display: initial;}
 }
 
 /* ALL NON-SPLASH */
@@ -198,6 +234,7 @@ h3 {
 .name {
     height: 200px;
     text-align: center;
+    background-color: white;
 }
 
 .name h1 {
@@ -211,6 +248,10 @@ h3 {
 
 .page {
     margin-top: 30px;
+}
+
+img.ticket {
+    max-width: 100%;
 }
 
 /* DIRECTIONS */
@@ -228,7 +269,7 @@ img.zedd {
 /* BIRDS */
 
 .bird-left {
-    top: 0;
+    top: 60%;
     left: 5%;
     position: fixed;
     width: 40%;
@@ -245,5 +286,6 @@ img.zedd {
     width: 25%;
     background: url(/assets/img/bird-right.png) bottom right no-repeat;
     background-size: contain;
+    z-index: -1;
 }
 
