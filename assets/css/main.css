@@ -1,4 +1,14 @@
-/* CAROUSEL */
+/* FONTS */
+@font-face {
+    font-family: 'good_times';
+    src: url('/assets/fonts/good_times_rg-webfont.woff2') format('woff2'),
+         url('/assets/fonts/good_times_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* SITE WIDE */
 
 html {
     position: relative;
@@ -18,7 +28,7 @@ body {
 h1,
 h2,
 h3 {
-    font-family: "good times";
+    font-family: "good_times";
 }
 
 /* SPLASH */
@@ -119,7 +129,7 @@ h3 {
 
 .navbar .navbar-nav li a {
     color: white;
-    font-family: "good times";
+    font-family: "good_times";
     display: inline-block;
     vertical-align: middle;
 }
