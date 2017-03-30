@@ -2,77 +2,210 @@
 
 html {
     position: relative;
+    min-width: 612px; /* LOWER BOUND ON PAGE WIDTH */
 }
 
 body,
 html {
     height: 100%;
-    background-color: rgb(50, 212, 217);
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, sans-serif;
+    font-family: 'Good Times', -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, sans-serif;
     background: none;
 }
 
-.splash-banner {
-    height: 80%;
+/* SPLASH */
+
+.title,
+.headliner {
+    text-shadow:
+    -1px -1px 3px #fff,
+    1px -1px 3px #fff,
+    -1px 1px 3px #fff,
+    1px 1px 3px #fff;
 }
 
-.splash-banner .cover-photo {
-    width: 100%;
+.title-bump {
+    height: 10%;
+}
+
+.title {
+    height: 35%;
+}
+
+.title h1 {
+    color: black;
+    display: inline-block;
+}
+
+.title h1 .top {
+    font-size: 50px;
+}
+
+.title h1 .mid {
+    line-height: 0.75em;
+}
+
+.title h1 .bot {
+    font-size: 50px;
+    float: right;
+    padding-right: 10px;
+}
+
+.headliner-bump {
+    height: 10%;
+}
+
+.headliner {
+    height: 35%;
+    text-align: center;
+}
+
+.headliner h3 {
+    margin: 0;
+}
+
+.headliner h1 {
+    text-indent: -99999px;
+    background: url(/assets/img/zedd.png) center center no-repeat;
+    background-size: contain;
+    height: 200px;
+    margin: 0;
+}
+
+.navbar {
+    height: 100px;
+    background-color: rgb(83, 192, 195);
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .navbar-nav {
+    margin: 0;
+
+    /* h center */
+    text-align: center;
+    float: none;
+}
+
+.navbar .container,
+.navbar .navbar-nav,
+.navbar .navbar-nav li {
+    /* v center */
     height: 100%;
-    background: url(/assets/img/banner.jpg) center center no-repeat;
-    background-size: contain;
 }
 
-.splash-banner .cover-photo h1,
-.splash-banner .cover-photo h2,
-.splash-banner .cover-photo p {
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
+.navbar .navbar-nav li:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
 
-.splash-bird {
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    height: 45%;
-    width: 45%;
-    background: url(/assets/img/bird.png) bottom right no-repeat;
-    background-size: contain;
+.navbar .navbar-nav li {
+    /* h center */
+    display: inline-block;
+    float: none;
 }
 
-.splash-bottom {
-    height: 20%;
+.navbar .navbar-nav li a {
+    color: white;
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
-.carousel {
-    z-index: -1;
+.navbar .navbar-nav li a:hover,
+.navbar .navbar-nav li.active a,
+.navbar .navbar-nav li a:focus {
+    background-color: initial;
+    text-decoration: underline;
 }
 
-.carousel,
-.carousel-inner,
-.item,
-.carousel-fill {
-    position: absolute;
+@media (max-width: 767px) {
+    .title h1 .mid {font-size: 100px;}
+    .title h1 .top,
+    .title h1 .bot {font-size: 20px;}
+
+    .headliner h1 {height: 100px;}
+
+    .navbar .navbar-nav li {margin: 0 0;}
+    .navbar .navbar-nav li a {font-size: 17px;}
+
+    .name h1 {font-size: 30px; margin-top: 40px;}
+}
+
+@media (min-width: 768px) {
+    .title h1 .mid {font-size: 120px;}
+    .title h1 .top,
+    .title h1 .bot {font-size: 30px;}
+
+    .headliner h1 {height: 130px;}
+
+    .navbar .navbar-nav li {margin: 0 0;}
+    .navbar .navbar-nav li a {font-size: 25px;}
+
+    .name h1 {font-size: 35px; margin-top: 35px;}
+}
+
+@media (min-width: 992px) {
+    .title h1 .mid {font-size: 180px;}
+    .title h1 .top,
+    .title h1 .bot {font-size: 40px;}
+
+    .headliner h1 {height: 160px;}
+
+    .navbar .navbar-nav li {margin: 0 20px;}
+    .navbar .navbar-nav li a {font-size: 30px;}
+
+    .name h1 {font-size: 45px; margin-top: 30px;}
+}
+
+@media (min-width: 1200px) {
+    .title h1 .mid {font-size: 220px;}
+    .title h1 .top,
+    .title h1 .bot {font-size: 50px;}
+
+    .headliner h1 {height: 200px;}
+
+    .navbar .navbar-nav li {margin: 0 30px;}
+    .navbar .navbar-nav li a {font-size: 35px;}
+
+    .name h1 {font-size: 50px; margin-top: 25px;}
+}
+
+/* ALL NON-SPLASH */
+
+.name {
+    height: 100px;
+    text-align: center;
+}
+
+.name h1 {
+    color: black;
+}
+
+/* BIRDS */
+
+.bird-left {
     top: 0;
-    left: 0;
-    right: 0;
+    left: 5%;
+    position: fixed;
+    width: 40%;
+    height: 40%;
+    background: url(/assets/img/bird-left.png) top left no-repeat;
+    background-size: contain;
+}
+
+.bird-right {
     bottom: 0;
+    right: 0;
+    position: fixed;
+    height: 95%;
+    width: 25%;
+    background: url(/assets/img/bird-right.png) bottom right no-repeat;
+    background-size: contain;
 }
 
-.carousel-inner > .item {
-    position: absolute;
-}
-
-.carousel-fill {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
