@@ -93,14 +93,20 @@ h3 {
 }
 
 .headliner h3 {
-    margin: 0;
+    margin: 10px 0;
 }
 
 .headliner h1 {
     text-indent: -99999px;
     background: url(/assets/img/zedd.png) center center no-repeat;
     background-size: contain;
-    height: 200px;
+    margin: 0;
+}
+
+.headliner h2 {
+    text-indent: -99999px;
+    background: url(/assets/img/broods.jpg) center center no-repeat;
+    background-size: contain;
     margin: 0;
 }
 
@@ -155,17 +161,20 @@ h3 {
 }
 
 @media (max-width: 320px) {
-    .splash {min-height: 350px;}
+    .splash {min-height: 450px;}
 
     .title h1 .mid {font-size: 70px;}
     .title h1 .top,
     .title h1 .bot {font-size: 14px;}
 
     .headliner h1 {height: 80px;}
+    .headliner h2 {height: 20px;}
 
     .presents,
     .date h3,
     .headliner h3 {font-size: 13px;}
+
+    .navbar {height: 50px;}
 
     .navbar .navbar-nav li {margin: 0 0;}
     .navbar .navbar-nav li a {font-size: 12px; padding: 0 1px;}
@@ -177,17 +186,20 @@ h3 {
 
 
 @media (min-width: 321px) {
-    .splash {min-height: 400px;}
+    .splash {min-height: 500px;}
 
     .title h1 .mid {font-size: 90px;}
     .title h1 .top,
     .title h1 .bot {font-size: 20px;}
 
     .headliner h1 {height: 100px;}
+    .headliner h2 {height: 30px;}
 
     .presents,
     .date h3,
     .headliner h3 {font-size: 15px;}
+
+    .navbar {height: 60px;}
 
     .navbar .navbar-nav li {margin: 0 0;}
     .navbar .navbar-nav li a {font-size: 15px; padding: 0 2px;}
@@ -198,17 +210,20 @@ h3 {
 }
 
 @media (min-width: 520px) and (min-height: 400px) {
-    .splash {min-height: 600px;}
+    .splash {min-height: 700px;}
 
     .title h1 .mid {font-size: 120px;}
     .title h1 .top,
     .title h1 .bot {font-size: 20px;}
 
     .headliner h1 {height: 100px;}
+    .headliner h2 {height: 30px;}
 
     .presents,
     .date h3,
     .headliner h3 {font-size: 15px;}
+
+    .navbar {height: 70px;}
 
     .navbar .navbar-nav li {margin: 0 0;}
     .navbar .navbar-nav li a {font-size: 17px; padding: 0 5px;}
@@ -219,17 +234,20 @@ h3 {
 }
 
 @media (min-width: 768px) and (min-height: 600px) {
-    .splash {min-height: 675px;}
+    .splash {min-height: 775px;}
 
     .title h1 .mid {font-size: 150px;}
     .title h1 .top,
     .title h1 .bot {font-size: 30px;}
 
-    .headliner h1 {height: 130px;}
+    .headliner h1 {height: 120px;}
+    .headliner h2 {height: 40px;}
 
     .presents,
     .date h3,
     .headliner h3 {font-size: 20px;}
+
+    .navbar {height: 80px;}
 
     .navbar .navbar-nav li {margin: 0 0;}
     .navbar .navbar-nav li a {font-size: 25px;}
@@ -240,17 +258,20 @@ h3 {
 }
 
 @media (min-width: 992px) and (min-height: 650px) {
-    .splash {min-height: 750px;}
+    .splash {min-height: 850px;}
 
     .title h1 .mid {font-size: 180px;}
     .title h1 .top,
     .title h1 .bot {font-size: 40px;}
 
-    .headliner h1 {height: 160px;}
+    .headliner h1 {height: 130px;}
+    .headliner h2 {height: 50px;}
 
     .presents,
     .date h3,
     .headliner h3 {font-size: 20px;}
+
+    .navbar {height: 90px;}
 
     .navbar .navbar-nav li {margin: 0 20px;}
     .navbar .navbar-nav li a {font-size: 30px;}
@@ -261,17 +282,20 @@ h3 {
 }
 
 @media (min-width: 1200px) and (min-height: 750px) {
-    .splash {min-height: 850px;}
+    .splash {min-height: 950px;}
 
     .title h1 .mid {font-size: 210px;}
     .title h1 .top,
     .title h1 .bot {font-size: 50px;}
 
-    .headliner h1 {height: 200px;}
+    .headliner h1 {height: 150px;}
+    .headliner h2 {height: 60px;}
 
     .presents,
     .date h3,
     .headliner h3 {font-size: 25px;}
+
+    .navbar {height: 100px;}
 
     .navbar .navbar-nav li {margin: 0 30px;}
     .navbar .navbar-nav li a {font-size: 35px;}
