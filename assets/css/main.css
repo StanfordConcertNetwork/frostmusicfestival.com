@@ -1,4 +1,5 @@
 /* FONTS */
+
 @font-face {
     font-family: 'good_times';
     src: url('/assets/fonts/good_times_rg-webfont.woff2') format('woff2'),
@@ -79,7 +80,11 @@ h3 {
 .date {
     height: 13%;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+}
+
+.date h3 {
+    margin: 5px 0;
 }
 
 .headliner {
@@ -192,7 +197,7 @@ h3 {
     .bird-right {display: none;}
 }
 
-@media (min-width: 520px) {
+@media (min-width: 520px) and (min-height: 400px) {
     .splash {min-height: 600px;}
 
     .title h1 .mid {font-size: 120px;}
@@ -213,7 +218,7 @@ h3 {
     .bird-right {display: none;}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (min-height: 600px) {
     .splash {min-height: 675px;}
 
     .title h1 .mid {font-size: 150px;}
@@ -234,7 +239,7 @@ h3 {
     .bird-right {display: none;}
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (min-height: 650px) {
     .splash {min-height: 750px;}
 
     .title h1 .mid {font-size: 180px;}
@@ -255,7 +260,7 @@ h3 {
     .bird-right {display: initial;}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (min-height: 750px) {
     .splash {min-height: 850px;}
 
     .title h1 .mid {font-size: 210px;}
