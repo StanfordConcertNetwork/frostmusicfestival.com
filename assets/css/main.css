@@ -236,7 +236,7 @@ h3 {
 
     .name h1 {font-size: 30px; margin-top: 40px;}
 
-    .bird-right {display: none;}
+    .bird-right {display: initial;}
 }
 
 @media (min-width: 768px) and (min-height: 675px) {
@@ -260,7 +260,7 @@ h3 {
 
     .name h1 {font-size: 35px; margin-top: 35px;}
 
-    .bird-right {display: none;}
+    .bird-right {display: initial;}
 }
 
 @media (min-width: 992px) and (min-height: 750px) {
