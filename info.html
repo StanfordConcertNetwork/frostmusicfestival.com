@@ -8,17 +8,19 @@ layout: default
     <div class="row">
         <div class="col-md-9">
             <h3>FAQ</h3>
-            <p class="lead">We're working on adding more information!</p>
-            <p class="lead">Feel free to email <a href="mailto:frostmusicfestival@gmail.com">frostmusicfestival@gmail.com</a> or call <a href="tel:+16507253112">(650) 725-3112</a> with questions.</p>
-        </div>
-    </div>
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                {% include faq.html id="1" q="When and where is Frost?" a="Frost is on Saturday, May 6th and will be held at the Stanford Stadium." %}
+                {% include faq.html id="1-5" q="What are the different ticket levels?" a="There are three different ticket levels available: Field, Lower Bleacher, and Upper Bleacher.<br><br>Only will only be able to access the level you have purchased. <strong>Try to ensure you and your friends purchase the same ticket level.</strong>" %}
+                {% include faq.html id="2" q="Will food and beverages be available?" a="Yes. There will be food and non-alcoholic beverages available for purchase inside the venue." %}
+                {% include faq.html id="3" q="Will alcohol be allowed inside the Stadium?" a="No. You may be required to open your beverage containers for review prior to entering the stadium.<br><br>Persons in possession of alcohol or who are visibly intoxicated will be denied entry, or are subject to removal from the venue, with no refund." %}
+                {% include faq.html id="4" q="Will smoking be allowed?" a="No. No smoking of ANY kind (including e-cigarettes) will be tolerated inside or in the immediate vicinity outside of the Stadium, within 30 feet of the venue, and within 30 feet of ticket lines. Those who are found smoking inside the venue may be subject to removal with no refund." %}
+                {% include faq.html id="5" q="Will re-entry be allowed?" a="No. You may leave the event at any time but re-entry will be prohibited." %}
+                {% include faq.html id="6" q="Will parking be available?" a="Yes. Please visit <a href='/directions'>the directions page</a> for parking details." %}
+                {% include faq.html id="7" q="Will Uber and Lyft pick-up and drop-off be available?" a="Yes. Please visit <a href='/directions'>the directions page</a> for ride sharing details." %}
+            </div>
 
-    <br>
-
-    <div class="row">
-        <div class="col-md-9">
-            <h3>Clear Bag Policy</h3>
-            <p>The Stanford Stadium follows Clear Bag Policy. For more information, visit <a href="http://www.gostanford.com/allclear">www.gostanford.com/allclear</a>.</p>
+            <p>We're working on adding more information!</p>
+            <p>Feel free to email <a href="mailto:frostmusicfestival@gmail.com">frostmusicfestival@gmail.com</a> or call <a href="tel:+16507253112">(650) 725-3112</a> with questions.</p>
         </div>
     </div>
 
@@ -42,4 +44,19 @@ layout: default
             </ul>
         </div>
     </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col-md-9">
+            <h3>Clear Bag Policy</h3>
+            <p>The Stanford Stadium follows Clear Bag Policy. For more information visit <a href="http://www.gostanford.com/allclear">gostanford.com/allclear</a>.</p>
+
+            <img class="img" src="/assets/img/bags.jpg">
+        </div>
+    </div>
+
+
+    <br><br>
+
 </div>

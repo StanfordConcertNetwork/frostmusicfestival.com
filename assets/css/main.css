@@ -92,6 +92,10 @@ h3 {
     text-align: center;
 }
 
+.headliner a {
+    color: black;
+}
+
 .headliner h3 {
     margin: 10px 0;
 }
@@ -168,7 +172,7 @@ h3 {
     .title h1 .bot {font-size: 14px;}
 
     .headliner h1 {height: 80px;}
-    .headliner h2 {height: 20px;}
+    .headliner h2 {height: 25px;}
 
     .presents,
     .date h3,
@@ -217,7 +221,7 @@ h3 {
     .title h1 .bot {font-size: 20px;}
 
     .headliner h1 {height: 100px;}
-    .headliner h2 {height: 30px;}
+    .headliner h2 {height: 35px;}
 
     .presents,
     .date h3,
@@ -265,7 +269,7 @@ h3 {
     .title h1 .bot {font-size: 40px;}
 
     .headliner h1 {height: 130px;}
-    .headliner h2 {height: 50px;}
+    .headliner h2 {height: 45px;}
 
     .presents,
     .date h3,
@@ -289,7 +293,7 @@ h3 {
     .title h1 .bot {font-size: 50px;}
 
     .headliner h1 {height: 150px;}
-    .headliner h2 {height: 60px;}
+    .headliner h2 {height: 50px;}
 
     .presents,
     .date h3,
@@ -332,14 +336,24 @@ img.ticket {
 
 /* DIRECTIONS */
 
-img.map {
+img.map,
+img.img {
     max-width: 100%;
 }
 
 /* ARTISTS */
 
-img.zedd {
-    max-width: 100%;
+.artist-social {
+    text-align: center;
+}
+
+.artist-social a {
+    font-size: 3em;
+    color: rgb(83, 192, 195);
+}
+
+.artist-social a:hover {
+    color: rgb(43, 152, 155);
 }
 
 /* BIRDS */
