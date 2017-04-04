@@ -104,7 +104,7 @@ h3 {
 
 .headliner h1 {
     text-indent: -99999px;
-    background: url(/assets/img/zedd.png) center center no-repeat;
+    background: url(/assets/img/zedd.jpg) center center no-repeat;
     background-size: contain;
     margin: 0;
 }
@@ -194,7 +194,7 @@ h3 {
 @media (min-width: 321px) {
     .splash {min-height: 500px;}
 
-    .title h1 .mid {font-size: 90px;}
+    .title h1 .mid {font-size: 85px;}
     .title h1 .top,
     .title h1 .bot {font-size: 20px;}
 
@@ -208,7 +208,7 @@ h3 {
     .navbar {height: 60px;}
 
     .navbar .navbar-nav li {margin: 0 0;}
-    .navbar .navbar-nav li a {font-size: 15px; padding: 0 2px;}
+    .navbar .navbar-nav li a {font-size: 14px; padding: 0 2px;}
 
     .name h1 {font-size: 30px; margin-top: 40px;}
 
@@ -361,7 +361,7 @@ img.img {
 /* BIRDS */
 
 .bird-left {
-    top: 60%;
+    top: 70%;
     left: 5%;
     position: fixed;
     width: 40%;
