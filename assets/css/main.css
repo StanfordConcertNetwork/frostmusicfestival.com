@@ -52,6 +52,7 @@ h3 {
 
 .title {
     height: 37%;
+    min-height: 220px;
 }
 
 .title h1 {
@@ -78,7 +79,7 @@ h3 {
 }
 
 .date {
-    height: 13%;
+    height: 8%;
     text-align: center;
     margin-bottom: 5px;
 }
@@ -89,6 +90,7 @@ h3 {
 
 .headliner {
     height: 35%;
+    min-height: 275px;
     text-align: center;
 }
 
@@ -213,7 +215,7 @@ h3 {
     .bird-right {display: none;}
 }
 
-@media (min-width: 520px) and (min-height: 400px) {
+@media (min-width: 520px) and (min-height: 600px) {
     .splash {min-height: 700px;}
 
     .title h1 .mid {font-size: 120px;}
@@ -237,7 +239,7 @@ h3 {
     .bird-right {display: none;}
 }
 
-@media (min-width: 768px) and (min-height: 600px) {
+@media (min-width: 768px) and (min-height: 675px) {
     .splash {min-height: 775px;}
 
     .title h1 .mid {font-size: 150px;}
@@ -261,7 +263,7 @@ h3 {
     .bird-right {display: none;}
 }
 
-@media (min-width: 992px) and (min-height: 650px) {
+@media (min-width: 992px) and (min-height: 750px) {
     .splash {min-height: 850px;}
 
     .title h1 .mid {font-size: 180px;}
@@ -285,7 +287,7 @@ h3 {
     .bird-right {display: initial;}
 }
 
-@media (min-width: 1200px) and (min-height: 750px) {
+@media (min-width: 1200px) and (min-height: 850px) {
     .splash {min-height: 950px;}
 
     .title h1 .mid {font-size: 210px;}
