@@ -20,7 +20,7 @@ html {
 }
 
 body {
-    font-family: -apple-system, "helvetica neue", helvetica, sans-serif;
+    font-family: -apple-system, "Helvetica Neue", helvetica, sans-serif;
     background: none;
 }
 
@@ -34,6 +34,8 @@ h3 {
 
 .splash {
     height: 100%;
+    text-align: center;
+    background-color: rgb(185, 225, 225);
 }
 
 .title,
@@ -103,21 +105,21 @@ h3 {
 
 .headliner h1 {
     text-indent: -99999px;
-    background: url(/assets/img/17/zedd.jpg) center center no-repeat;
+    background: url(/assets/img/18/glassanimals.png) center center no-repeat;
     background-size: contain;
     margin: 0;
 }
 
-.headliner h2 {
-    text-indent: -99999px;
-    background: url(/assets/img/17/broods.jpg) center center no-repeat;
-    background-size: contain;
-    margin: 0;
-}
+/* .headliner h2 { */
+/*     text-indent: -99999px; */
+/*     background: url(/assets/img/17/broods.jpg) center center no-repeat; */
+/*     background-size: contain; */
+/*     margin: 0; */
+/* } */
 
 .navbar {
     height: 100px;
-    background-color: rgb(83, 192, 195);
+    background-color: rgb(242, 154, 163);
     clear: both;
     margin: 0;
     padding: 0;
@@ -186,7 +188,7 @@ h3 {
 
     .name h1 {font-size: 30px; margin-top: 40px;}
 
-    .bird-right {display: none;}
+    .foliage-right {display: none;}
 }
 
 
@@ -211,7 +213,7 @@ h3 {
 
     .name h1 {font-size: 30px; margin-top: 40px;}
 
-    .bird-right {display: none;}
+    .foliage-right {display: none;}
 }
 
 @media (min-width: 520px) and (min-height: 600px) {
@@ -235,7 +237,7 @@ h3 {
 
     .name h1 {font-size: 30px; margin-top: 40px;}
 
-    .bird-right {display: initial;}
+    .foliage-right {display: initial;}
 }
 
 @media (min-width: 768px) and (min-height: 675px) {
@@ -259,7 +261,7 @@ h3 {
 
     .name h1 {font-size: 35px; margin-top: 35px;}
 
-    .bird-right {display: initial;}
+    .foliage-right {display: initial;}
 }
 
 @media (min-width: 992px) and (min-height: 750px) {
@@ -283,7 +285,7 @@ h3 {
 
     .name h1 {font-size: 45px; margin-top: 30px;}
 
-    .bird-right {display: initial;}
+    .foliage-right {display: initial;}
 }
 
 @media (min-width: 1200px) and (min-height: 850px) {
@@ -307,7 +309,7 @@ h3 {
 
     .name h1 {font-size: 50px; margin-top: 25px;}
 
-    .bird-right {display: initial;}
+    .foliage-right {display: initial;}
 }
 
 /* ALL NON-SPLASH */
@@ -366,24 +368,22 @@ img.img {
 
 /* BRANCHES */
 
-.bird-left {
-    top: 60%;
-    left: 5%;
+.foliage-left {
     position: fixed;
-    width: 40%;
-    height: 40%;
-    background: url(/assets/img/17/bird-left.png) top left no-repeat;
+    height: 60%;
+    width: 60%;
+    bottom: 75px;
+    left: 5px;
+    background: url(/assets/img/18/man.png) top left no-repeat;
     background-size: contain;
 }
 
-.branch-right {
-    bottom: 0;
+.foliage-right {
+    top: 300;
     right: 0;
     position: fixed;
     height: 95%;
     width: 25%;
-    background: url(/assets/img/17/bird-right.png) bottom right no-repeat;
+    background: url(/assets/img/18/branch3.png) bottom right no-repeat;
     background-size: contain;
-    z-index: -1;
 }
-
