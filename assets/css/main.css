@@ -317,7 +317,7 @@ h3 {
 .name {
     height: 200px;
     text-align: center;
-    background-color: white;
+    background-color: rgb(185, 225, 225);
 }
 
 .name h1 {
@@ -325,7 +325,7 @@ h3 {
     margin-top: 15px;
     color: black;
     text-indent: -99999px;
-    background: url(/assets/img/17/logo.jpg) center center no-repeat;
+    background: url(/assets/img/core/newlogo_clear.png) center center no-repeat;
     background-size: contain;
 }
 
