@@ -16,23 +16,16 @@
 
 /* SITE WIDE */
 
-html {
-    position: relative;
-}
+html { position: relative; }
 
-body,
-html {
-    height: 100%;
-}
+body, html { height: 100%; }
 
 body {
     font-family: -apple-system, Avenir, "Helvetica Neue", helvetica, sans-serif;
     background: none;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-family: Avenir, "Helvetice Neue", Helvetica, sans-serif;
 }
 
@@ -44,9 +37,7 @@ h3 {
     background-color: rgb(185, 225, 225);
 }
 
-.title,
-.headliner,
-.date {
+.title, .headliner, .date {
     text-shadow:
     -1px -1px 3px #fff,
     1px -1px 3px #fff,
@@ -59,7 +50,7 @@ h3 {
 }
 
 .title {
-    height: 37%;
+    height: 27%;
     min-height: 220px;
 }
 
@@ -68,25 +59,23 @@ h3 {
     display: inline-block;
 }
 
-.title h1 .top {
+.title .top {
+    margin-bottom: 0;
     font-size: 50px;
 }
 
-/* .title h1 .mid { */
-/*     line-height: 0.75em; */
-/* } */
+.title .bot {
+    margin-top: 0;
+    font-size: 50px;
+}
 
-.title h1 .mid {
+.title .mid {
     text-indent: -99999px;
+    width: 250px;
+    line-height: 80px;
     background: url(/assets/img/18/frost.png) center center no-repeat;
     background-size: contain;
     margin: 0;
-}
-
-.title h1 .bot {
-    font-size: 50px;
-    float: right;
-    padding-right: 10px;
 }
 
 .presents {
@@ -95,7 +84,6 @@ h3 {
 }
 
 .date {
-    height: 8%;
     text-align: center;
     margin-bottom: 5px;
 }
@@ -193,8 +181,8 @@ h3 {
 }
 
 .name h1 {
-    height: 170px;
-    margin-top: 15px;
+    height: 150px;
+    margin-top: 25px;
     color: black;
     text-indent: -99999px;
     background: url(/assets/img/core/newlogo_clear.png) center center no-repeat;

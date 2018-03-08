@@ -1,9 +1,9 @@
 @media (max-width: 320px) {
     .splash {min-height: 450px;}
 
-    .title h1 .mid {font-size: 70px;}
-    .title h1 .top,
-    .title h1 .bot {font-size: 14px;}
+    .title .mid {font-size: 70px;}
+    .title .top,
+    .title .bot {font-size: 14px;}
 
     .headliner h1 {height: 80px;}
     .headliner h2 {height: 25px;}
@@ -17,7 +17,7 @@
     .navbar .navbar-nav li {margin: 0 0;}
     .navbar .navbar-nav li a {font-size: 12px; padding: 0 1px;}
 
-    .name h1 {font-size: 30px; margin-top: 40px;}
+    .name h1 {font-size: 30px;}
 
     .foliage-right {display: none;}
 }
@@ -26,9 +26,9 @@
 @media (min-width: 321px) {
     .splash {min-height: 500px;}
 
-    .title h1 .mid {font-size: 85px;}
-    .title h1 .top,
-    .title h1 .bot {font-size: 20px;}
+    .title .mid {font-size: 85px;}
+    .title .top,
+    .title .bot {font-size: 20px;}
 
     .headliner h1 {height: 120px;}
     .headliner h2 {height: 30px;}
@@ -42,7 +42,7 @@
     .navbar .navbar-nav li {margin: 0 0;}
     .navbar .navbar-nav li a {font-size: 14px; padding: 0 2px;}
 
-    .name h1 {font-size: 30px; margin-top: 40px;}
+    .name h1 {font-size: 30px;}
 
     .foliage-right {display: none;}
 }
@@ -50,9 +50,9 @@
 @media (min-width: 520px) and (min-height: 600px) {
     .splash {min-height: 700px;}
 
-    .title h1 .mid {font-size: 120px;}
-    .title h1 .top,
-    .title h1 .bot {font-size: 20px;}
+    .title .mid {font-size: 120px;}
+    .title .top,
+    .title .bot {font-size: 20px;}
 
     .headliner h1 {height: 150px;}
     .headliner h2 {height: 35px;}
@@ -66,7 +66,7 @@
     .navbar .navbar-nav li {margin: 0 0;}
     .navbar .navbar-nav li a {font-size: 17px; padding: 0 5px;}
 
-    .name h1 {font-size: 30px; margin-top: 40px;}
+    .name h1 {font-size: 30px;}
 
     .foliage-right {display: initial;}
 }
@@ -74,9 +74,9 @@
 @media (min-width: 768px) and (min-height: 675px) {
     .splash {min-height: 775px;}
 
-    .title h1 .mid {font-size: 150px;}
-    .title h1 .top,
-    .title h1 .bot {font-size: 30px;}
+    .title .mid {font-size: 150px;}
+    .title .top,
+    .title .bot {font-size: 30px;}
 
     .headliner h1 {height: 180px;}
     .headliner h2 {height: 40px;}
@@ -90,7 +90,7 @@
     .navbar .navbar-nav li {margin: 0 0;}
     .navbar .navbar-nav li a {font-size: 25px;}
 
-    .name h1 {font-size: 35px; margin-top: 35px;}
+    .name h1 {font-size: 35px;}
 
     .foliage-right {display: initial;}
 }
@@ -98,9 +98,9 @@
 @media (min-width: 992px) and (min-height: 750px) {
     .splash {min-height: 850px;}
 
-    .title h1 .mid {font-size: 180px;}
-    .title h1 .top,
-    .title h1 .bot {font-size: 40px;}
+    .title .mid {font-size: 180px;}
+    .title .top,
+    .title .bot {font-size: 40px;}
 
     .headliner h1 {height: 180px;}
     .headliner h2 {height: 45px;}
@@ -114,7 +114,7 @@
     .navbar .navbar-nav li {margin: 0 20px;}
     .navbar .navbar-nav li a {font-size: 30px;}
 
-    .name h1 {font-size: 45px; margin-top: 30px;}
+    .name h1 {font-size: 45px;}
 
     .foliage-right {display: initial;}
 }
@@ -122,9 +122,9 @@
 @media (min-width: 1200px) and (min-height: 850px) {
     .splash {min-height: 950px;}
 
-    .title h1 .mid {font-size: 210px;}
-    .title h1 .top,
-    .title h1 .bot {font-size: 50px;}
+    .title .mid {font-size: 210px;}
+    .title .top,
+    .title .bot {font-size: 50px;}
 
     .headliner h1 {height: 200px;}
     .headliner h2 {height: 50px;}
@@ -138,7 +138,7 @@
     .navbar .navbar-nav li {margin: 0 30px;}
     .navbar .navbar-nav li a {font-size: 35px;}
 
-    .name h1 {font-size: 50px; margin-top: 25px;}
+    .name h1 {font-size: 50px;}
 
     .foliage-right {display: initial;}
 }
