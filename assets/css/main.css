@@ -1,12 +1,18 @@
 /* FONTS */
 
-/* @font-face { */
-/*     font-family: 'good_times'; */
-/*     src: url('/assets/fonts/good_times_rg-webfont.woff2') format('woff2'), */
-/*          url('/assets/fonts/good_times_rg-webfont.woff') format('woff'); */
-/*     font-weight: normal; */
-/*     font-style: normal; */
-/* } */
+@font-face {
+    font-family: Avenir;
+    src: url('/assets/fonts/AvenirLTStd-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: AvenirLight;
+    src: url('/assets/fonts/AvenirLTStd-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* SITE WIDE */
 
@@ -20,14 +26,14 @@ html {
 }
 
 body {
-    font-family: -apple-system, "Helvetica Neue", helvetica, sans-serif;
+    font-family: -apple-system, Avenir, "Helvetica Neue", helvetica, sans-serif;
     background: none;
 }
 
 h1,
 h2,
 h3 {
-    font-family: "Helvetice Neue", Helvetica, sans-serif;
+    font-family: Avenir, "Helvetice Neue", Helvetica, sans-serif;
 }
 
 /* SPLASH */
@@ -39,7 +45,8 @@ h3 {
 }
 
 .title,
-.headliner {
+.headliner,
+.date {
     text-shadow:
     -1px -1px 3px #fff,
     1px -1px 3px #fff,
@@ -65,8 +72,15 @@ h3 {
     font-size: 50px;
 }
 
+/* .title h1 .mid { */
+/*     line-height: 0.75em; */
+/* } */
+
 .title h1 .mid {
-    line-height: 0.75em;
+    text-indent: -99999px;
+    background: url(/assets/img/18/frost.png) center center no-repeat;
+    background-size: contain;
+    margin: 0;
 }
 
 .title h1 .bot {
@@ -77,6 +91,7 @@ h3 {
 
 .presents {
     text-align: center;
+    font-family: AvenirLight;
 }
 
 .date {
@@ -87,6 +102,7 @@ h3 {
 
 .date h3 {
     margin: 5px 0;
+    font-family: AvenirLight;
 }
 
 .headliner {
@@ -101,6 +117,7 @@ h3 {
 
 .headliner h3 {
     margin: 10px 0;
+    font-family: AvenirLight;
 }
 
 .headliner h1 {
@@ -155,7 +172,7 @@ h3 {
 
 .navbar .navbar-nav li a {
     color: white;
-    font-family: "Helvetice Neue", Helvetica, sans-serif;
+    font-family: Avenir, "Helvetice Neue", Helvetica, sans-serif;
     display: inline-block;
     vertical-align: middle;
 }
@@ -199,7 +216,7 @@ h3 {
     .title h1 .top,
     .title h1 .bot {font-size: 20px;}
 
-    .headliner h1 {height: 100px;}
+    .headliner h1 {height: 120px;}
     .headliner h2 {height: 30px;}
 
     .presents,
@@ -223,7 +240,7 @@ h3 {
     .title h1 .top,
     .title h1 .bot {font-size: 20px;}
 
-    .headliner h1 {height: 100px;}
+    .headliner h1 {height: 150px;}
     .headliner h2 {height: 35px;}
 
     .presents,
@@ -247,7 +264,7 @@ h3 {
     .title h1 .top,
     .title h1 .bot {font-size: 30px;}
 
-    .headliner h1 {height: 120px;}
+    .headliner h1 {height: 180px;}
     .headliner h2 {height: 40px;}
 
     .presents,
@@ -271,7 +288,7 @@ h3 {
     .title h1 .top,
     .title h1 .bot {font-size: 40px;}
 
-    .headliner h1 {height: 130px;}
+    .headliner h1 {height: 180px;}
     .headliner h2 {height: 45px;}
 
     .presents,
@@ -295,7 +312,7 @@ h3 {
     .title h1 .top,
     .title h1 .bot {font-size: 50px;}
 
-    .headliner h1 {height: 150px;}
+    .headliner h1 {height: 200px;}
     .headliner h2 {height: 50px;}
 
     .presents,
@@ -368,9 +385,9 @@ img.img {
 
 /* BRANCHES */
 
-.foliage-left {
+.man-left {
     position: fixed;
-    height: 60%;
+    height: 40%;
     width: 60%;
     bottom: 75px;
     left: 5px;
