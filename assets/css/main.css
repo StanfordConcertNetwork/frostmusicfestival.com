@@ -104,14 +104,14 @@ h3 {
 
 .headliner h1 {
     text-indent: -99999px;
-    background: url(/assets/img/zedd.jpg) center center no-repeat;
+    background: url(/assets/img/17/zedd.jpg) center center no-repeat;
     background-size: contain;
     margin: 0;
 }
 
 .headliner h2 {
     text-indent: -99999px;
-    background: url(/assets/img/broods.jpg) center center no-repeat;
+    background: url(/assets/img/17/broods.jpg) center center no-repeat;
     background-size: contain;
     margin: 0;
 }
@@ -324,7 +324,7 @@ h3 {
     margin-top: 15px;
     color: black;
     text-indent: -99999px;
-    background: url(/assets/img/logo.jpg) center center no-repeat;
+    background: url(/assets/img/17/logo.jpg) center center no-repeat;
     background-size: contain;
 }
 
@@ -365,7 +365,7 @@ img.img {
     margin-bottom: 50px;
 }
 
-/* BIRDS */
+/* BRANCHES */
 
 .bird-left {
     top: 60%;
@@ -373,17 +373,17 @@ img.img {
     position: fixed;
     width: 40%;
     height: 40%;
-    background: url(/assets/img/bird-left.png) top left no-repeat;
+    background: url(/assets/img/17/bird-left.png) top left no-repeat;
     background-size: contain;
 }
 
-.bird-right {
+.branch-right {
     bottom: 0;
     right: 0;
     position: fixed;
     height: 95%;
     width: 25%;
-    background: url(/assets/img/bird-right.png) bottom right no-repeat;
+    background: url(/assets/img/17/bird-right.png) bottom right no-repeat;
     background-size: contain;
     z-index: -1;
 }
