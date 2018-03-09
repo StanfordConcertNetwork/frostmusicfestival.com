@@ -86,7 +86,8 @@ h1, h2, h3 {
 
 .presents {
     text-align: center;
-    font-family: AvenirLight;
+    font-family: Avenir;
+    font-weight: 300;
 }
 
 .date {
@@ -96,7 +97,8 @@ h1, h2, h3 {
 
 .date h3 {
     margin: 5px 0;
-    font-family: AvenirLight;
+    font-family: Avenir;
+    font-weight: 300;
 }
 
 .headliner {
@@ -111,7 +113,8 @@ h1, h2, h3 {
 
 .headliner h3 {
     margin: 10px 0;
-    font-family: AvenirLight;
+    font-family: Avenir;
+    font-weight: 300;
 }
 
 .headliner h1 {
