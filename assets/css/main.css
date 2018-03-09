@@ -56,10 +56,6 @@ h1, h2, h3 {
     height: 3%;
 }
 
-.title {
-    min-height: 220px;
-}
-
 .title h1 {
     color: black;
     display: inline-block;
@@ -71,17 +67,23 @@ h1, h2, h3 {
 }
 
 .title .bot {
-    margin-top: -10px;
+    margin-top: 10px;
+    margin-bottom: 0;
     font-size: 50px;
+}
+
+.title .feat {
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .title .mid {
     text-indent: -99999px;
-    width: 250px;
-    line-height: 80px;
     background: url(/assets/img/18/frost.png) center center no-repeat;
     background-size: contain;
     margin: 0;
+    width: 100%;
+    line-height: 0;
 }
 
 .presents {
@@ -92,7 +94,7 @@ h1, h2, h3 {
 
 .date {
     text-align: center;
-    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 .date h3 {
@@ -102,8 +104,6 @@ h1, h2, h3 {
 }
 
 .headliner {
-    height: 35%;
-    min-height: 275px;
     text-align: center;
 }
 
@@ -124,12 +124,14 @@ h1, h2, h3 {
     margin: 0;
 }
 
-/* .headliner h2 { */
-/*     text-indent: -99999px; */
-/*     background: url(/assets/img/17/broods.jpg) center center no-repeat; */
-/*     background-size: contain; */
-/*     margin: 0; */
-/* } */
+/*
+.headliner h2 {
+    text-indent: -99999px;
+    background: url(/assets/img/17/broods.jpg) center center no-repeat;
+    background-size: contain;
+    margin: 0;
+}
+*/
 
 .navbar {
     height: 100px;

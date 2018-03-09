@@ -1,16 +1,14 @@
 @media (max-width: 320px) {
     .splash {min-height: 450px;}
 
-    .title .mid {font-size: 70px;}
+    .title .mid {height: 40px;}
     .title .top,
     .title .bot {font-size: 14px;}
 
     .headliner h1 {height: 80px;}
-    .headliner h2 {height: 25px;}
+    .headliner h2 {font-size: 14px;}
 
-    .presents,
-    .date h3,
-    .headliner h3 {font-size: 13px;}
+    .splash h3 {font-size: 13px;}
 
     .navbar {height: 50px;}
 
@@ -26,16 +24,14 @@
 @media (min-width: 321px) {
     .splash {min-height: 500px;}
 
-    .title .mid {font-size: 85px;}
+    .title .mid {height: 50px;}
     .title .top,
     .title .bot {font-size: 20px;}
 
     .headliner h1 {height: 120px;}
-    .headliner h2 {height: 30px;}
+    .headliner h2 {font-size: 18px;}
 
-    .presents,
-    .date h3,
-    .headliner h3 {font-size: 15px;}
+    .splash h3 {font-size: 15px;}
 
     .navbar {height: 60px;}
 
@@ -50,16 +46,14 @@
 @media (min-width: 520px) and (min-height: 600px) {
     .splash {min-height: 700px;}
 
-    .title .mid {font-size: 120px;}
+    .title .mid {height: 55px;}
     .title .top,
-    .title .bot {font-size: 20px;}
+    .title .bot {font-size: 25px;}
 
     .headliner h1 {height: 150px;}
-    .headliner h2 {height: 35px;}
+    .headliner h2 {font-size: 22px;}
 
-    .presents,
-    .date h3,
-    .headliner h3 {font-size: 15px;}
+    .splash h3 {font-size: 15px;}
 
     .navbar {height: 70px;}
 
@@ -74,16 +68,14 @@
 @media (min-width: 768px) and (min-height: 675px) {
     .splash {min-height: 775px;}
 
-    .title .mid {font-size: 150px;}
+    .title .mid {height: 70px;}
     .title .top,
     .title .bot {font-size: 30px;}
 
     .headliner h1 {height: 180px;}
-    .headliner h2 {height: 40px;}
+    .headliner h2 {font-size: 25px;}
 
-    .presents,
-    .date h3,
-    .headliner h3 {font-size: 20px;}
+    .splash h3 {font-size: 20px;}
 
     .navbar {height: 80px;}
 
@@ -98,16 +90,14 @@
 @media (min-width: 992px) and (min-height: 750px) {
     .splash {min-height: 850px;}
 
-    .title .mid {font-size: 180px;}
+    .title .mid {height: 80px;}
     .title .top,
     .title .bot {font-size: 40px;}
 
     .headliner h1 {height: 180px;}
-    .headliner h2 {height: 45px;}
+    .headliner h2 {font-size: 26px;}
 
-    .presents,
-    .date h3,
-    .headliner h3 {font-size: 20px;}
+    .splash h3 {font-size: 20px;}
 
     .navbar {height: 90px;}
 
@@ -122,16 +112,14 @@
 @media (min-width: 1200px) and (min-height: 850px) {
     .splash {min-height: 950px;}
 
-    .title .mid {font-size: 210px;}
+    .title .mid {height: 90px;}
     .title .top,
     .title .bot {font-size: 50px;}
 
     .headliner h1 {height: 200px;}
-    .headliner h2 {height: 50px;}
+    .headliner h2 {font-size: 30px;}
 
-    .presents,
-    .date h3,
-    .headliner h3 {font-size: 25px;}
+    .splash h3 {font-size: 25px;}
 
     .navbar {height: 100px;}
 
