@@ -119,7 +119,7 @@ h1, h2, h3 {
 
 .headliner h1 {
     text-indent: -99999px;
-    background: url(/assets/img/18/glassanimals.png) center center no-repeat;
+    background: url(/assets/img/18/ganimals/glassanimals.png) center center no-repeat;
     background-size: contain;
     margin: 0;
 }
