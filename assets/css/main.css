@@ -3,14 +3,21 @@
 @font-face {
     font-family: Avenir;
     src: url('/assets/fonts/AvenirLTStd-Book.otf') format('opentype');
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: AvenirLight;
+    font-family: Avenir;
     src: url('/assets/fonts/AvenirLTStd-Light.otf') format('opentype');
-    font-weight: normal;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url('/assets/fonts/AvenirLTStd-Roman.otf') format('opentype');
+    font-weight: 700;
     font-style: normal;
 }
 
