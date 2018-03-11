@@ -214,6 +214,10 @@ img.img {
 
 /* ARTISTS */
 
+.artist {
+    text-align: center;
+}
+
 .artist-social {
     text-align: center;
 }
