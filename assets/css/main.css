@@ -8,14 +8,14 @@
 }
 
 @font-face {
-    font-family: Avenir;
+    font-family: AvenirLight;
     src: url('/assets/fonts/AvenirLTStd-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
-    font-family: Avenir;
+    font-family: AvenirBold;
     src: url('/assets/fonts/AvenirLTStd-Roman.otf') format('opentype');
     font-weight: 700;
     font-style: normal;
@@ -28,12 +28,12 @@ html { position: relative; }
 body, html { height: 100%; }
 
 body {
-    font-family: -apple-system, Avenir, "Helvetica Neue", helvetica, sans-serif;
+    font-family: Avenir, "Helvetica Neue", helvetica, sans-serif;
     background: none;
 }
 
-h1, h2, h3 {
-    font-family: Avenir, "Helvetice Neue", Helvetica, sans-serif;
+h1, h2, h3, b {
+    font-family: AvenirBold, "Helvetice Neue", Helvetica, sans-serif;
 }
 
 /* SPLASH */
@@ -45,11 +45,7 @@ h1, h2, h3 {
 }
 
 .title, .headliner, .date {
-    text-shadow:
-    -1px -1px 3px #fff,
-    1px -1px 3px #fff,
-    -1px 1px 3px #fff,
-    1px 1px 3px #fff;
+    text-shadow: -1px 1px 0px #fff;
 }
 
 .title-bump {
@@ -74,7 +70,6 @@ h1, h2, h3 {
 
 .title .feat {
     margin-top: 10px;
-    margin-bottom: 15px;
 }
 
 .title .mid {
@@ -89,9 +84,6 @@ h1, h2, h3 {
 .presents {
     text-align: center;
     font-family: Avenir;
-    font-weight: 300;
-    margin-top: 10px;
-    margin-bottom: 0px;
 }
 
 .date {
@@ -101,8 +93,6 @@ h1, h2, h3 {
 
 .date h3 {
     margin: 5px 0;
-    font-family: Avenir;
-    font-weight: 300;
 }
 
 .headliner {
@@ -113,17 +103,22 @@ h1, h2, h3 {
     color: black;
 }
 
-.headliner h3 {
-    margin: 10px 0;
-    font-family: Avenir;
-    font-weight: 300;
-}
-
 .headliner h1 {
     text-indent: -99999px;
     background: url(/assets/img/18/ganimals/glassanimals.png) center center no-repeat;
     background-size: contain;
     margin: 0;
+    margin: 10px 0;
+}
+
+.headliner h2 {
+    margin: 10px 0;
+}
+
+.headliner h3 {
+    margin: 10px 0;
+    font-family: AvenirBold;
+    font-weight: 300;
 }
 
 /*
@@ -245,8 +240,8 @@ img.img {
     position: fixed;
     height: 40%;
     width: 60%;
-    bottom: 75px;
-    left: 5px;
+    bottom: 0;
+    left: -15px;
     background: url(/assets/img/18/man.png) top left no-repeat;
     background-size: contain;
 }
