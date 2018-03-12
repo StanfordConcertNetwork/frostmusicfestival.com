@@ -17,7 +17,6 @@
 
     .name h1 {font-size: 30px;}
 
-    .foliage-right,
     .man-left {display: none;}
 }
 
@@ -41,7 +40,6 @@
 
     .name h1 {font-size: 30px;}
 
-    .foliage-right,
     .man-left {display: none;}
 }
 
@@ -64,7 +62,6 @@
 
     .name h1 {font-size: 30px;}
 
-    .foliage-right,
     .man-left {display: initial;}
 }
 
@@ -87,7 +84,7 @@
 
     .name h1 {font-size: 35px;}
 
-    .foliage-right {display: initial;}
+    .man-left {display: initial;}
 }
 
 @media (min-width: 992px) and (min-height: 750px) {
@@ -109,7 +106,6 @@
 
     .name h1 {font-size: 45px;}
 
-    .foliage-right,
     .man-left {display: initial;}
 }
 
@@ -132,6 +128,5 @@
 
     .name h1 {font-size: 50px;}
 
-    .foliage-right,
     .man-left {display: initial;}
 }
