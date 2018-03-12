@@ -1,58 +1,55 @@
 /* FONTS */
 
 @font-face {
-    font-family: 'good_times';
-    src: url('/assets/fonts/good_times_rg-webfont.woff2') format('woff2'),
-         url('/assets/fonts/good_times_rg-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: Avenir;
+    src: url('/assets/fonts/AvenirLTStd-Book.otf') format('opentype');
+    font-weight: 500;
     font-style: normal;
+}
 
+@font-face {
+    font-family: AvenirLight;
+    src: url('/assets/fonts/AvenirLTStd-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: AvenirBold;
+    src: url('/assets/fonts/AvenirLTStd-Roman.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
 }
 
 /* SITE WIDE */
 
-html {
-    position: relative;
-}
+html { position: relative; }
 
-body,
-html {
-    height: 100%;
-}
+body, html { height: 100%; }
 
 body {
-    font-family: -apple-system, "helvetica neue", helvetica, sans-serif;
+    font-family: Avenir, "Helvetica Neue", helvetica, sans-serif;
     background: none;
 }
 
-h1,
-h2,
-h3 {
-    font-family: "good_times";
+h1, h2, h3, b {
+    font-family: AvenirBold, "Helvetice Neue", Helvetica, sans-serif;
 }
 
 /* SPLASH */
 
 .splash {
     height: 100%;
+    text-align: center;
+    background-color: rgb(185, 225, 225);
 }
 
-.title,
-.headliner {
-    text-shadow:
-    -1px -1px 3px #fff,
-    1px -1px 3px #fff,
-    -1px 1px 3px #fff,
-    1px 1px 3px #fff;
+.title, .headliner, .date {
+    text-shadow: -1px 1px 0px #fff;
 }
 
 .title-bump {
     height: 3%;
-}
-
-.title {
-    height: 37%;
-    min-height: 220px;
 }
 
 .title h1 {
@@ -60,28 +57,38 @@ h3 {
     display: inline-block;
 }
 
-.title h1 .top {
+.title .top {
+    margin-bottom: 0;
     font-size: 50px;
 }
 
-.title h1 .mid {
-    line-height: 0.75em;
+.title .bot {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 50px;
 }
 
-.title h1 .bot {
-    font-size: 50px;
-    float: right;
-    padding-right: 10px;
+.title .feat {
+    margin-top: 10px;
+}
+
+.title .mid {
+    text-indent: -99999px;
+    background: url(/assets/img/18/frost.png) center center no-repeat;
+    background-size: contain;
+    margin: 0;
+    width: 100%;
+    line-height: 0;
 }
 
 .presents {
     text-align: center;
+    font-family: Avenir;
 }
 
 .date {
-    height: 8%;
     text-align: center;
-    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 .date h3 {
@@ -89,8 +96,6 @@ h3 {
 }
 
 .headliner {
-    height: 35%;
-    min-height: 275px;
     text-align: center;
 }
 
@@ -98,27 +103,36 @@ h3 {
     color: black;
 }
 
-.headliner h3 {
+.headliner h1 {
+    text-indent: -99999px;
+    background: url(/assets/img/18/ganimals/glassanimals.png) center center no-repeat;
+    background-size: contain;
+    margin: 0;
     margin: 10px 0;
 }
 
-.headliner h1 {
-    text-indent: -99999px;
-    background: url(/assets/img/zedd.jpg) center center no-repeat;
-    background-size: contain;
-    margin: 0;
+.headliner h2 {
+    margin: 10px 0;
 }
 
+.headliner h3 {
+    margin: 10px 0;
+    font-family: AvenirBold;
+    font-weight: 300;
+}
+
+/*
 .headliner h2 {
     text-indent: -99999px;
-    background: url(/assets/img/broods.jpg) center center no-repeat;
+    background: url(/assets/img/17/broods.jpg) center center no-repeat;
     background-size: contain;
     margin: 0;
 }
+*/
 
 .navbar {
     height: 100px;
-    background-color: rgb(83, 192, 195);
+    background-color: rgb(242, 154, 163);
     clear: both;
     margin: 0;
     padding: 0;
@@ -154,7 +168,7 @@ h3 {
 
 .navbar .navbar-nav li a {
     color: white;
-    font-family: "good_times";
+    font-family: Avenir, "Helvetice Neue", Helvetica, sans-serif;
     display: inline-block;
     vertical-align: middle;
 }
@@ -166,165 +180,20 @@ h3 {
     text-decoration: underline;
 }
 
-@media (max-width: 320px) {
-    .splash {min-height: 450px;}
-
-    .title h1 .mid {font-size: 70px;}
-    .title h1 .top,
-    .title h1 .bot {font-size: 14px;}
-
-    .headliner h1 {height: 80px;}
-    .headliner h2 {height: 25px;}
-
-    .presents,
-    .date h3,
-    .headliner h3 {font-size: 13px;}
-
-    .navbar {height: 50px;}
-
-    .navbar .navbar-nav li {margin: 0 0;}
-    .navbar .navbar-nav li a {font-size: 12px; padding: 0 1px;}
-
-    .name h1 {font-size: 30px; margin-top: 40px;}
-
-    .bird-right {display: none;}
-}
-
-
-@media (min-width: 321px) {
-    .splash {min-height: 500px;}
-
-    .title h1 .mid {font-size: 85px;}
-    .title h1 .top,
-    .title h1 .bot {font-size: 20px;}
-
-    .headliner h1 {height: 100px;}
-    .headliner h2 {height: 30px;}
-
-    .presents,
-    .date h3,
-    .headliner h3 {font-size: 15px;}
-
-    .navbar {height: 60px;}
-
-    .navbar .navbar-nav li {margin: 0 0;}
-    .navbar .navbar-nav li a {font-size: 14px; padding: 0 2px;}
-
-    .name h1 {font-size: 30px; margin-top: 40px;}
-
-    .bird-right {display: none;}
-}
-
-@media (min-width: 520px) and (min-height: 600px) {
-    .splash {min-height: 700px;}
-
-    .title h1 .mid {font-size: 120px;}
-    .title h1 .top,
-    .title h1 .bot {font-size: 20px;}
-
-    .headliner h1 {height: 100px;}
-    .headliner h2 {height: 35px;}
-
-    .presents,
-    .date h3,
-    .headliner h3 {font-size: 15px;}
-
-    .navbar {height: 70px;}
-
-    .navbar .navbar-nav li {margin: 0 0;}
-    .navbar .navbar-nav li a {font-size: 17px; padding: 0 5px;}
-
-    .name h1 {font-size: 30px; margin-top: 40px;}
-
-    .bird-right {display: initial;}
-}
-
-@media (min-width: 768px) and (min-height: 675px) {
-    .splash {min-height: 775px;}
-
-    .title h1 .mid {font-size: 150px;}
-    .title h1 .top,
-    .title h1 .bot {font-size: 30px;}
-
-    .headliner h1 {height: 120px;}
-    .headliner h2 {height: 40px;}
-
-    .presents,
-    .date h3,
-    .headliner h3 {font-size: 20px;}
-
-    .navbar {height: 80px;}
-
-    .navbar .navbar-nav li {margin: 0 0;}
-    .navbar .navbar-nav li a {font-size: 25px;}
-
-    .name h1 {font-size: 35px; margin-top: 35px;}
-
-    .bird-right {display: initial;}
-}
-
-@media (min-width: 992px) and (min-height: 750px) {
-    .splash {min-height: 850px;}
-
-    .title h1 .mid {font-size: 180px;}
-    .title h1 .top,
-    .title h1 .bot {font-size: 40px;}
-
-    .headliner h1 {height: 130px;}
-    .headliner h2 {height: 45px;}
-
-    .presents,
-    .date h3,
-    .headliner h3 {font-size: 20px;}
-
-    .navbar {height: 90px;}
-
-    .navbar .navbar-nav li {margin: 0 20px;}
-    .navbar .navbar-nav li a {font-size: 30px;}
-
-    .name h1 {font-size: 45px; margin-top: 30px;}
-
-    .bird-right {display: initial;}
-}
-
-@media (min-width: 1200px) and (min-height: 850px) {
-    .splash {min-height: 950px;}
-
-    .title h1 .mid {font-size: 210px;}
-    .title h1 .top,
-    .title h1 .bot {font-size: 50px;}
-
-    .headliner h1 {height: 150px;}
-    .headliner h2 {height: 50px;}
-
-    .presents,
-    .date h3,
-    .headliner h3 {font-size: 25px;}
-
-    .navbar {height: 100px;}
-
-    .navbar .navbar-nav li {margin: 0 30px;}
-    .navbar .navbar-nav li a {font-size: 35px;}
-
-    .name h1 {font-size: 50px; margin-top: 25px;}
-
-    .bird-right {display: initial;}
-}
-
 /* ALL NON-SPLASH */
 
 .name {
     height: 200px;
     text-align: center;
-    background-color: white;
+    background-color: rgb(185, 225, 225);
 }
 
 .name h1 {
-    height: 170px;
-    margin-top: 15px;
+    height: 150px;
+    margin-top: 25px;
     color: black;
     text-indent: -99999px;
-    background: url(/assets/img/logo.jpg) center center no-repeat;
+    background: url(/assets/img/core/newlogo_clear.png) center center no-repeat;
     background-size: contain;
 }
 
@@ -344,6 +213,10 @@ img.img {
 }
 
 /* ARTISTS */
+
+.artist {
+    text-align: center;
+}
 
 .artist-social {
     text-align: center;
@@ -365,26 +238,30 @@ img.img {
     margin-bottom: 50px;
 }
 
-/* BIRDS */
+/* BRANCHES */
 
-.bird-left {
-    top: 60%;
-    left: 5%;
+.man-left {
     position: fixed;
-    width: 40%;
     height: 40%;
-    background: url(/assets/img/bird-left.png) top left no-repeat;
-    background-size: contain;
-}
-
-.bird-right {
+    width: 60%;
     bottom: 0;
-    right: 0;
-    position: fixed;
-    height: 95%;
-    width: 25%;
-    background: url(/assets/img/bird-right.png) bottom right no-repeat;
+    left: -15px;
+    background: url(/assets/img/18/man.png) top left no-repeat;
     background-size: contain;
-    z-index: -1;
 }
 
+.column-left {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: url(/assets/img/18/column1_x3.png) top left no-repeat;
+    background-size: contain;
+}
+
+.column-right {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: url(/assets/img/18/column2_x3.png) top right no-repeat;
+    background-size: contain;
+}
