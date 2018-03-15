@@ -4,6 +4,34 @@ layout: default
 
 <div class="bird-right"></div>
 
+
+<div class="modal fade" id="js-tickets">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body" style="text-align: center">
+        <div id="js-like">
+            <p class="lead">To continue, please like<br>Stanford Concert Network's Facebook page.</p>
+            <div class="row">
+                <div class="col-sm-2 col-sm-offset-1">
+                    <img src="/assets/img/scnlogo-sm.jpg" style="width: 100%">
+                </div>
+                <div class="col-sm-8">
+                    <div class="fb-like" data-href="https://facebook.com/stanfordconcertnetwork" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="false" style="width: 100%; overflow: hidden"></div>
+                </div>
+            </div>
+            <br>
+        </div>
+        <div id="js-load">
+            <img src="/assets/img/loading.gif" style="height: 100px">
+        </div>
+        <div id="js-buy" class="hidden">
+            <a id="js-buy-link" class="btn btn-lg btn-danger" style="font-size: 1.5em;" href="https://gostanford.evenue.net/cgi-bin/ncommerce3/EVExecMacro?linkID=stanford&evm=myac&msgCode=32000&shopperContext=ST&returnURL=/cgi-bin/ncommerce3/SEGetGroupList%3FlinkID%3Dstanford%26groupCode%3D%26RSRC%3D%26RDAT%3D%26shopperContext%3DST" target="blank">Purchase Stanford Student Tickets</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="container page">
 
     <div class="row">
@@ -11,10 +39,10 @@ layout: default
             <h3>Stanford Student Tickets</h3>
             <p>All tickets grant field access!<p/>
 
-            <p>Stanford student tickets go on pre-sale Thursday, March 15 at 10:00 AM. Remaining tickets go on sale on Friday, March 16 at 10:00 AM.</p>
+            <p>Stanford student tickets are on pre-sale. Remaining tickets go on sale on Friday, March 16 at 10:00 AM.</p>
 
             <div>
-                <a class="disabled btn btn-lg btn-danger" href="http://gostanford.com/redzone" target="blank" style="font-size: 1.5em">Purchase Stanford Student Tickets</a>
+                <a id="js-start" class="btn btn-lg btn-danger" href="https://gostanford.evenue.net/cgi-bin/ncommerce3/EVExecMacro?linkID=stanford&evm=myac&msgCode=32000&shopperContext=ST&returnURL=/cgi-bin/ncommerce3/SEGetGroupList%3FlinkID%3Dstanford%26groupCode%3D%26RSRC%3D%26RDAT%3D%26shopperContext%3DST" data-target="#js-tickets" data-toggle="modal" style="font-size: 1.5em">Purchase Stanford Student Tickets</a>
             </div>
             <br>
 
@@ -32,10 +60,10 @@ layout: default
             <h3>General Admission Tickets</h3>
             <p>All tickets grant field access!<p/>
 
-            <p>General admission tickets go on pre-sale Thursday, March 15 at 10:00 AM. Remaining tickets go on sale on Friday, March 16 at 10:00 AM.</p>
+            <p>General admission tickets are on pre-sale. Remaining tickets go on sale on Friday, March 16 at 10:00 AM.</p>
 
             <div>
-                <a class="disabled btn btn-lg btn-info" href="http://axs.com/events/334524/frost-music-arts-festival-with-zedd-tickets" target="blank" style="font-size: 1.5em">Purchase General Admission Tickets</a>
+                <a class="btn btn-lg btn-info" href="https://www.axs.com/events/351369/glass-animals-tickets" target="blank" style="font-size: 1.5em">Purchase General Admission Tickets</a>
             </div>
             <br>
 
