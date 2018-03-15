@@ -30,14 +30,14 @@
             $('#js-buy').removeClass('hidden');
         }
 
-        $.getScript('//connect.facebook.net/en_UK/all.js', function() {
+        $.getScript('//connect.facebook.net/en_US/all.js', function() {
             console.log('init')
             FB.init({
                 appId: '176153606350086', // todo: dev
-                status: true,
-                cookie: true,
+                status: false,
+                cookie: false,
                 xfbml: true,
-                oauth: true
+                oauth: false
             });
         });
 
