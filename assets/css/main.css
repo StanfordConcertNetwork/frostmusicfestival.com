@@ -139,10 +139,10 @@ h1, h2, h3, b {
 }
 
 .navbar-logo-div {
-    position: absolute;
-    bottom: 10%;
+    position: absolute !important;
+    height: 90% !important;
     left: 5%;
-    height: 90%;
+    bottom: 10%;
 }
 
 .navbar-logo {
