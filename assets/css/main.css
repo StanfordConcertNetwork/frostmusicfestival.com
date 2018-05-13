@@ -197,6 +197,17 @@ h1, h2, h3, b {
     background-size: contain;
 }
 
+.name h2 {
+    height: 40px;
+    position: absolute;
+    top: 120px;
+    right: 0px;
+    color: black;
+    text-indent: -99999px;
+    background: url(/assets/img/scnlogo-clear.png) center center no-repeat;
+    background-size: contain;
+}
+
 .page {
     margin-top: 30px;
 }
