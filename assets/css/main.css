@@ -180,6 +180,18 @@ h1, h2, h3, b {
     text-decoration: underline;
 }
 
+.facebook-link {
+    background: url(https://www.jolttx.org/wp-content/uploads/2017/04/photos-facebook-logo-png-transparent-background-13-300x169.png) center center no-repeat;
+}
+
+.instagram-link {
+    background: url(https://diylogodesigns.com/wp-content/uploads/2016/05/instagram-Logo-PNG-Transparent-Background-download-768x768.png) center center no-repeat;
+}
+
+.links a {
+    display: inline
+}
+
 /* ALL NON-SPLASH */
 
 .name {
