@@ -41,7 +41,7 @@ h1, h2, h3, b {
 .splash {
     height: 100%;
     text-align: center;
-    background-color: rgb(185, 225, 225);
+    background-color: rgb(34, 139, 34);
 }
 
 .title, .headliner, .date {
@@ -74,7 +74,7 @@ h1, h2, h3, b {
 
 .title .mid {
     text-indent: -99999px;
-    background: url(/assets/img/18/frost.png) center center no-repeat;
+    background: url(/assets/img/newlogo.png) center center no-repeat;
     background-size: contain;
     margin: 0;
     width: 100%;
