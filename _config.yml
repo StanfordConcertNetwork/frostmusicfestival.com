@@ -1,9 +1,7 @@
 # Site settings
 title: Stanford Concert Network
 email: lbagdasarian@hotmail.com
-baseurl: "frostmusicfestival.com"
 url: "https://stanfordconcertnetwork.github.io"
-absolute_url: "https://stanfordconcertnetwork.github.io/frostmusicfestival.com"
 description: "Stanford Concert Network presents Frost! Kali Uchis Jorja Smith are headliners. Be there."
 keywords: "your keywords, separated by commas"
 skills: ""
@@ -53,8 +51,10 @@ address:
   - line: 365 Lasuen St.
   - line: Stanford, CA, 94305
 
+
 # Credits content
 
 # Build settings
+baseurl: "/frostmusicfestival.com"
 markdown: kramdown
 permalink: pretty
