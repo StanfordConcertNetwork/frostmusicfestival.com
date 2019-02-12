@@ -1,0 +1,16 @@
+current directory: /Users/lara/Desktop/freelanceSCN4/vendor/bundle/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/Users/lara/.rubies/ruby-2.4.0/bin/ruby -I /Users/lara/.rubies/ruby-2.4.0/lib/ruby/site_ruby/2.4.0 -r ./siteconf20190121-13446-6ka8vd.rb extconf.rb
+creating Makefile
+
+current directory: /Users/lara/Desktop/freelanceSCN4/vendor/bundle/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /Users/lara/Desktop/freelanceSCN4/vendor/bundle/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/lara/Desktop/freelanceSCN4/vendor/bundle/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20190121-13446-euymuw
