@@ -1,0 +1,278 @@
+/* FONTS */
+
+@font-face {
+    font-family: Avenir;
+    src: url('/assets/fonts/AvenirLTStd-Book.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: AvenirLight;
+    src: url('/assets/fonts/AvenirLTStd-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: AvenirBold;
+    src: url('/assets/fonts/AvenirLTStd-Roman.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* SITE WIDE */
+
+html { position: relative; }
+
+body, html { height: 100%; }
+
+body {
+    font-family: Avenir, "Helvetica Neue", helvetica, sans-serif;
+    background: none;
+}
+
+h1, h2, h3, b {
+    font-family: AvenirBold, "Helvetice Neue", Helvetica, sans-serif;
+}
+
+/* SPLASH */
+
+.splash {
+    height: 100%;
+    text-align: center;
+    background-color: rgb(185, 225, 225);
+}
+
+.title, .headliner, .date {
+    text-shadow: -1px 1px 0px #fff;
+}
+
+.title-bump {
+    height: 3%;
+}
+
+.title h1 {
+    color: black;
+    display: inline-block;
+}
+
+.title .top {
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+.title .bot {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+.title .feat {
+    margin-top: 10px;
+}
+
+.title .mid {
+    text-indent: -99999px;
+    background: url(/assets/img/18/frost.png) center center no-repeat;
+    background-size: contain;
+    margin: 0;
+    width: 100%;
+    line-height: 0;
+}
+
+.presents {
+    text-align: center;
+    font-family: Avenir;
+}
+
+.date {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.date h3 {
+    margin: 5px 0;
+}
+
+.headliner {
+    text-align: center;
+}
+
+.headliner a {
+    color: black;
+}
+
+.headliner h1 {
+    text-indent: -99999px;
+    background: url(/assets/img/18/ganimals/glassanimals.png) center center no-repeat;
+    background-size: contain;
+    margin: 0;
+    margin: 10px 0;
+}
+
+.headliner h2 {
+    margin: 10px 0;
+}
+
+.headliner h3 {
+    margin: 10px 0;
+    font-family: AvenirBold;
+    font-weight: 300;
+}
+
+/*
+.headliner h2 {
+    text-indent: -99999px;
+    background: url(/assets/img/17/broods.jpg) center center no-repeat;
+    background-size: contain;
+    margin: 0;
+}
+*/
+
+.navbar {
+    height: 100px;
+    background-color: rgb(242, 154, 163);
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .navbar-nav {
+    margin: 0;
+
+    /* h center */
+    text-align: center;
+    float: none;
+}
+
+.navbar .container,
+.navbar .navbar-nav,
+.navbar .navbar-nav li {
+    /* v center */
+    height: 100%;
+}
+
+.navbar .navbar-nav li:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.navbar .navbar-nav li {
+    /* h center */
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-nav li a {
+    color: white;
+    font-family: Avenir, "Helvetice Neue", Helvetica, sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navbar .navbar-nav li a:hover,
+.navbar .navbar-nav li.active a,
+.navbar .navbar-nav li a:focus {
+    background-color: initial;
+    text-decoration: underline;
+}
+
+/* ALL NON-SPLASH */
+
+.name {
+    height: 200px;
+    text-align: center;
+    background-color: rgb(185, 225, 225);
+}
+
+.name h1 {
+    height: 150px;
+    margin-top: 25px;
+    color: black;
+    text-indent: -99999px;
+    background: url(/assets/img/core/newlogo_clear.png) center center no-repeat;
+    background-size: contain;
+}
+
+.scn h2 {
+    height: 70px;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    color: black;
+    text-indent: -99999px;
+    background: url(/assets/img/scnlogo-clear.png) center center no-repeat;
+    background-size: contain;
+}
+
+.page {
+    margin-top: 30px;
+}
+
+img.ticket {
+    max-width: 100%;
+}
+
+/* DIRECTIONS */
+
+img.map,
+img.img {
+    max-width: 100%;
+}
+
+/* ARTISTS */
+
+.artist {
+    text-align: center;
+}
+
+.artist-social {
+    text-align: center;
+}
+
+.artist-social a {
+    font-size: 3em;
+    color: rgb(83, 192, 195);
+}
+
+.artist-social a:hover {
+    color: rgb(43, 152, 155);
+}
+
+/* INFO */
+
+.sponsors {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* BRANCHES */
+
+.man-left {
+    position: fixed;
+    height: 40%;
+    width: 60%;
+    bottom: 0;
+    left: -15px;
+    background: url(/assets/img/18/man.png) top left no-repeat;
+    background-size: contain;
+}
+
+.column-left {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: url(/assets/img/18/column1_x3.png) top left no-repeat;
+    background-size: contain;
+}
+
+.column-right {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: url(/assets/img/18/column2_x3.png) top right no-repeat;
+    background-size: contain;
+}
