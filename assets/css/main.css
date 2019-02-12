@@ -41,7 +41,7 @@ h1, h2, h3, b {
 .splash {
     height: 100%;
     text-align: center;
-    background-color: rgb(185, 225, 225);
+    background-color: #123260;
 }
 
 .title, .headliner, .date {
@@ -132,7 +132,7 @@ h1, h2, h3, b {
 
 .navbar {
     height: 100px;
-    background-color: rgb(242, 154, 163);
+    background-color: #943671;
     clear: both;
     margin: 0;
     padding: 0;
@@ -185,7 +185,7 @@ h1, h2, h3, b {
 .name {
     height: 200px;
     text-align: center;
-    background-color: rgb(185, 225, 225);
+    background-color: lightgray;
 }
 
 .name h1 {
@@ -235,11 +235,11 @@ img.img {
 
 .artist-social a {
     font-size: 3em;
-    color: rgb(83, 192, 195);
+    color: #943671;
 }
 
 .artist-social a:hover {
-    color: rgb(43, 152, 155);
+    color: black;
 }
 
 /* INFO */
@@ -265,7 +265,7 @@ img.img {
     position: fixed;
     height: 100%;
     width: 100%;
-    background: url(/assets/img/18/column1_x3.png) top left no-repeat;
+    background: url(/assets/img/19/colL.png) top left no-repeat;
     background-size: contain;
 }
 
@@ -273,6 +273,6 @@ img.img {
     position: fixed;
     height: 100%;
     width: 100%;
-    background: url(/assets/img/18/column2_x3.png) top right no-repeat;
+    background: url(/assets/img/19/colR.png) top right no-repeat;
     background-size: contain;
 }
