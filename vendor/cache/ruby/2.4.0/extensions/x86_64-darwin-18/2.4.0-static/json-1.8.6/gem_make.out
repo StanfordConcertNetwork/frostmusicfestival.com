@@ -1,0 +1,13 @@
+current directory: /Users/lara/Desktop/scnSite4/vendor/cache/ruby/2.4.0/gems/json-1.8.6/ext/json
+/Users/lara/.rubies/ruby-2.4.0/bin/ruby -I /Users/lara/.rubies/ruby-2.4.0/lib/ruby/site_ruby/2.4.0 -r ./siteconf20190212-42755-1vmw91h.rb extconf.rb
+creating Makefile
+
+current directory: /Users/lara/Desktop/scnSite4/vendor/cache/ruby/2.4.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/lara/Desktop/scnSite4/vendor/cache/ruby/2.4.0/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/lara/Desktop/scnSite4/vendor/cache/ruby/2.4.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" install
