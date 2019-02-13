@@ -56,7 +56,12 @@ layout: default
         </div>
     </div>
     <br>
-
+    <style>
+        .explanation-text 
+        {
+        display:inline-flex !important; 
+        }
+        </style>
     <div class="row">
         <div class="col-md-4">
             <h3>Ticket Pricing</h3>
@@ -70,7 +75,7 @@ layout: default
                 </thead>
                 <tbody>
                     <tr>
-                        <th>Stanford Student</th>
+                        <th>Stanford Student<explanation-text>*</explanation-text></th>
                         <td>$25.00</td>
                     </tr>
                     <tr>
@@ -83,6 +88,7 @@ layout: default
                     </tr>
                 </tbody>
             </table>
+            <p><explanation-text>*</explanation-text>subsidized by student fees. please consider not waiving your fees in the future to help support Frost.</p>
             <p>Note the prices do not include ticket processing fees.</p>
         </div>
     </div>
