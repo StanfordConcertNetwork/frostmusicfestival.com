@@ -152,7 +152,7 @@ h1, h2, h3, b {
     right: 0px;
     color: black;
     text-indent: -99999px;
-    background: url(/assets/img/scnlogo-clear.png) center center no-repeat;
+    background: url(/assets/img/core/scnlogo-clear.png) center center no-repeat;
     background-size: contain;
 }
 
