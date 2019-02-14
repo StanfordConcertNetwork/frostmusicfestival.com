@@ -41,94 +41,40 @@ h1, h2, h3, b {
 .splash {
     height: 100%;
     text-align: center;
-    background-color: #1b3562;
+    background: url(/assets/img/19/stars.png);
+    background-size: 1000px;
+    display: flex;
+    align-items: center;
 }
 
-.title, .headliner, .date {
-    text-shadow: -1px 1px 0px #fff;
-}
-
-.title-bump {
-    height: 3%;
+.title {
+    padding-bottom: 180px;
 }
 
 .title h1 {
-    color: black;
-    display: inline-block;
-}
-
-.title .top {
-    margin-bottom: 0;
-    font-size: 50px;
-}
-
-.title .bot {
-    margin-top: 10px;
-    margin-bottom: 0;
-    font-size: 50px;
-}
-
-.title .feat {
-    margin-top: 10px;
-}
-
-.title .mid {
     text-indent: -99999px;
-    background: url(/assets/img/18/frost.png) center center no-repeat;
+    background: url(/assets/img/19/header.png) center center no-repeat;
+    background-size: contain;
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+.title h2 {
+    text-indent: -99999px;
+    background: url(/assets/img/19/sun.png) center center no-repeat;
+    background-size: contain;
+    margin: 20px 0;
+    height: 200px;
+}
+
+.title h3 {
+    text-indent: -99999px;
+    background: url(/assets/img/19/frost.png) center center no-repeat;
     background-size: contain;
     margin: 0;
-    width: 100%;
-    line-height: 0;
-}
-
-.presents {
-    text-align: center;
-    font-family: Avenir;
-}
-
-.date {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.date h3 {
-    margin: 5px 0;
-}
-
-.headliner {
-    text-align: center;
-}
-
-.headliner a {
-    color: black;
-}
-
-.headliner h1 {
-    text-indent: -99999px;
-    background: url(/assets/img/18/ganimals/glassanimals.png) center center no-repeat;
-    background-size: contain;
     margin: 0;
-    margin: 10px 0;
+    height: 150px;
 }
-
-.headliner h2 {
-    margin: 10px 0;
-}
-
-.headliner h3 {
-    margin: 10px 0;
-    font-family: AvenirBold;
-    font-weight: 300;
-}
-
-/*
-.headliner h2 {
-    text-indent: -99999px;
-    background: url(/assets/img/17/broods.jpg) center center no-repeat;
-    background-size: contain;
-    margin: 0;
-}
-*/
 
 .navbar {
     height: 100px;
@@ -136,6 +82,7 @@ h1, h2, h3, b {
     clear: both;
     margin: 0;
     padding: 0;
+    border-radius: 0px;
 }
 
 .navbar .navbar-nav {
@@ -185,7 +132,8 @@ h1, h2, h3, b {
 .name {
     height: 200px;
     text-align: center;
-    background-color: lightgray;
+    background: url(/assets/img/19/stars.png);
+    background-size: 1000px;
 }
 
 .name h1 {
@@ -193,14 +141,14 @@ h1, h2, h3, b {
     margin-top: 25px;
     color: black;
     text-indent: -99999px;
-    background: url(/assets/img/core/newlogo_clear.png) center center no-repeat;
+    background: url(/assets/img/19/frost.png) center center no-repeat;
     background-size: contain;
 }
 
 .scn h2 {
-    height: 70px;
+    height: 100px;
     position: absolute;
-    top: 100px;
+    top: 85px;
     right: 0px;
     color: black;
     text-indent: -99999px;
@@ -265,7 +213,7 @@ img.img {
     position: fixed;
     height: 100%;
     width: 100%;
-    background: url(/assets/img/19/colL.png) top left no-repeat;
+    /* background: url(/assets/img/19/colL.png) top left no-repeat; */
     background-size: contain;
 }
 
@@ -273,6 +221,6 @@ img.img {
     position: fixed;
     height: 100%;
     width: 100%;
-    background: url(/assets/img/19/colR.png) top right no-repeat;
+    /* background: url(/assets/img/19/colR.png) top right no-repeat; */
     background-size: contain;
 }
