@@ -49,6 +49,7 @@ h1, h2, h3, b {
 
 .title {
     padding-bottom: 180px;
+    width: 100%;
 }
 
 .title h1 {
