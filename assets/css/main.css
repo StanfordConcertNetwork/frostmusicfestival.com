@@ -57,7 +57,6 @@ h1, h2, h3, b {
     background: url(/assets/img/19/header.png) center center no-repeat;
     background-size: contain;
     height: 250px;
-    margin-bottom: 100px;
 }
 
 .title h2 {
