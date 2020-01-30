@@ -54,15 +54,15 @@ h1, h2, h3, b {
 
 .title h1 {
     text-indent: -99999px;
-    background: url(/assets/img/20/centeredtext_webasset_frost.png) center center no-repeat;
+    background: url(/assets/img/20/frost_info.png) center center no-repeat;
     background-size: contain;
     height: 150px;
-    margin-top: -150px;
+    margin-top: -500px;
 }
 
 .title h2 {
     text-indent: -99999px;
-    background: url(/assets/img/20/dog_transparent_cropped.png) center center no-repeat;
+    background: url(/assets/img/20/dog_transparent.png) center center no-repeat;
     background-size: contain;
     height: 400px;
 }
@@ -151,7 +151,7 @@ h1, h2, h3, b {
     margin-top: 25px;
     color: black;
     text-indent: -99999px;
-    background: url(/assets/img/20/thumbnail_text_transparent.png) center center no-repeat;
+    background: url(/assets/img/20/centeredtext_webasset_frost.png) center center no-repeat;
     background-size: contain;
 }
 
