@@ -41,7 +41,7 @@ h1, h2, h3, b {
 .splash {
     height: 100%;
     text-align: center;
-    background: url(/assets/img/19/stars.png);
+    background: url(/assets/img/20/sketches.png);
     background-size: 1000px;
     display: flex;
     align-items: center;
@@ -54,22 +54,32 @@ h1, h2, h3, b {
 
 .title h1 {
     text-indent: -99999px;
-    background: url(/assets/img/19/header.png) center center no-repeat;
+    background: url(/assets/img/20/frost_info.png) center center no-repeat;
     background-size: contain;
-    height: 250px;
-    margin-top: 50px;
+    height: 150px;
+    margin-top: -500px;
 }
 
 .title h2 {
     text-indent: -99999px;
-    background: url(/assets/img/19/rainbow.png) center center no-repeat;
+    background: url(/assets/img/20/dog_transparent.png) center center no-repeat;
     background-size: contain;
-    height: 300px;
+    height: 400px;
 }
 
 .title h3 {
     text-indent: -99999px;
-    background: url(/assets/img/19/frost.png) center center no-repeat;
+    background: url(/assets/img/20/frostdate.png) center center no-repeat;
+    background-size: contain;
+    margin: 0;
+    margin: 0;
+    height: 150px;
+    margin-top: 40px;
+}
+
+.title h4 {
+    text-indent: -99999px;
+    background: url(/assets/img/20/amphitheater.png) center center no-repeat;
     background-size: contain;
     margin: 0;
     margin: 0;
@@ -78,7 +88,7 @@ h1, h2, h3, b {
 
 .navbar {
     height: 100px;
-    background-color: #943671;
+    background-color: #00B3DB;
     clear: both;
     margin: 0;
     padding: 0;
@@ -132,7 +142,7 @@ h1, h2, h3, b {
 .name {
     height: 200px;
     text-align: center;
-    background: url(/assets/img/19/stars.png);
+    background: url(/assets/img/20/horizontal_smallersketch.jpeg);
     background-size: 1000px;
 }
 
@@ -141,7 +151,7 @@ h1, h2, h3, b {
     margin-top: 25px;
     color: black;
     text-indent: -99999px;
-    background: url(/assets/img/19/frost.png) center center no-repeat;
+    background: url(/assets/img/20/centeredtext_webasset_frost.png) center center no-repeat;
     background-size: contain;
 }
 
@@ -183,11 +193,15 @@ img.img {
 
 .artist-social a {
     font-size: 3em;
-    color: #943671;
+    color: #DA6755;
 }
 
 .artist-social a:hover {
     color: black;
+}
+
+.artist-name{
+    font-size: 50px;
 }
 
 /* INFO */
