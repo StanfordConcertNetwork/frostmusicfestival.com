@@ -1,240 +1,360 @@
 /* FONTS */
 
 @font-face {
-    font-family: Avenir;
-    src: url('/assets/fonts/AvenirLTStd-Book.otf') format('opentype');
-    font-weight: 500;
-    font-style: normal;
+	font-family: Avenir;
+	src: url('/assets/fonts/AvenirLTStd-Book.otf') format('opentype');
+	font-weight: 500;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: AvenirLight;
-    src: url('/assets/fonts/AvenirLTStd-Light.otf') format('opentype');
-    font-weight: 300;
-    font-style: normal;
+	font-family: AvenirLight;
+	src: url('/assets/fonts/AvenirLTStd-Light.otf') format('opentype');
+	font-weight: 300;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: AvenirBold;
-    src: url('/assets/fonts/AvenirLTStd-Roman.otf') format('opentype');
-    font-weight: 700;
-    font-style: normal;
+	font-family: AvenirBold;
+	src: url('/assets/fonts/AvenirLTStd-Roman.otf') format('opentype');
+	font-weight: 700;
+	font-style: normal;
 }
 
 /* SITE WIDE */
 
-html { position: relative; }
-
-body, html { height: 100%; }
-
-body {
-    font-family: Avenir, "Helvetica Neue", helvetica, sans-serif;
-    background: none;
+html {
+	position: relative;
 }
 
-h1, h2, h3, b {
-    font-family: AvenirBold, "Helvetice Neue", Helvetica, sans-serif;
+body,
+html {
+	height: 100%;
+}
+
+body {
+	font-family: Avenir, "Helvetica Neue", helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+b {
+	font-family: AvenirBold, "Helvetice Neue", Helvetica, sans-serif;
 }
 
 /* SPLASH */
 
+.positioning {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 95%;
+	overflow: auto;
+	/* Hide scrollbar for IE, Edge and Firefox */
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+	padding-top: 10px;
+	padding-bottom: 100px;
+}
+
+.positioning-mobile {
+	top: 0px;
+	width: 100%;
+	height: 95%;
+	padding-bottom: 20px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.positioning::-webkit-scrollbar {
+	display: none;
+}
+
+.gradient-positioning {
+	position: absolute;
+	right: 30%;
+	top: 0px;
+	width: 40%;
+}
+
+.gradient {
+	width: 100%;
+	height: auto;
+}
+
+.scrollable-imgs {
+}
+
+.scrollable-img {
+	width: 100%;
+	height: auto;
+}
+
+#artists-scroll-btn {
+	text-align: center;
+	color: #fd9b61;
+	cursor: pointer;
+	font-size: 40px;
+}
+
+#splash-background-img {
+	width: 100%;
+}
+
+#splash-background-img-mobile {
+	width: 100%;
+}
+
 .splash {
-    height: 100%;
-    text-align: center;
-    background: url(/assets/img/20/sketches.png);
-    background-size: 1000px;
-    display: flex;
-    align-items: center;
+	background: url(/assets/img/21/background-medium.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+
+.img-container {
+	height: 100%;
 }
 
 .title {
-    padding-bottom: 180px;
-    width: 100%;
+	padding-bottom: 180px;
+	width: 100%;
 }
 
 .title h1 {
-    text-indent: -99999px;
-    background: url(/assets/img/20/frost_info.png) center center no-repeat;
-    background-size: contain;
-    height: 150px;
-    margin-top: -500px;
+	text-indent: -99999px;
+	background: url(/assets/img/20/frost_info.png) center center no-repeat;
+	background-size: contain;
+	height: 150px;
+	margin-top: -500px;
 }
 
 .title h2 {
-    text-indent: -99999px;
-    background: url(/assets/img/20/dog_transparent.png) center center no-repeat;
-    background-size: contain;
-    height: 400px;
+	text-indent: -99999px;
+	background: url(/assets/img/20/dog_transparent.png) center center no-repeat;
+	background-size: contain;
+	height: 400px;
 }
 
 .title h3 {
-    text-indent: -99999px;
-    background: url(/assets/img/20/frostdate.png) center center no-repeat;
-    background-size: contain;
-    margin: 0;
-    margin: 0;
-    height: 150px;
-    margin-top: 40px;
+	text-indent: -99999px;
+	background: url(/assets/img/20/frostdate.png) center center no-repeat;
+	background-size: contain;
+	margin: 0;
+	margin: 0;
+	height: 150px;
+	margin-top: 40px;
 }
 
 .title h4 {
-    text-indent: -99999px;
-    background: url(/assets/img/20/amphitheater.png) center center no-repeat;
-    background-size: contain;
-    margin: 0;
-    margin: 0;
-    height: 150px;
+	text-indent: -99999px;
+	background: url(/assets/img/20/amphitheater.png) center center no-repeat;
+	background-size: contain;
+	margin: 0;
+	margin: 0;
+	height: 150px;
 }
 
 .navbar {
-    height: 100px;
-    background-color: #00B3DB;
-    clear: both;
-    margin: 0;
-    padding: 0;
-    border-radius: 0px;
+	height: 100px;
+	background-color: #fd9b61;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	border-radius: 0px;
 }
 
 .navbar .navbar-nav {
-    margin: 0;
+	margin: 0;
 
-    /* h center */
-    text-align: center;
-    float: none;
+	/* h center */
+	text-align: center;
+	float: none;
 }
 
 .navbar .container,
 .navbar .navbar-nav,
 .navbar .navbar-nav li {
-    /* v center */
-    height: 100%;
+	/* v center */
+	height: 100%;
 }
 
 .navbar .navbar-nav li:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
 }
 
 .navbar .navbar-nav li {
-    /* h center */
-    display: inline-block;
-    float: none;
+	/* h center */
+	display: inline-block;
+	float: none;
 }
 
 .navbar .navbar-nav li a {
-    color: white;
-    font-family: Avenir, "Helvetice Neue", Helvetica, sans-serif;
-    display: inline-block;
-    vertical-align: middle;
+	color: white;
+	font-family: Avenir, "Helvetice Neue", Helvetica, sans-serif;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .navbar .navbar-nav li a:hover,
 .navbar .navbar-nav li.active a,
 .navbar .navbar-nav li a:focus {
-    background-color: initial;
-    text-decoration: underline;
+	background-color: initial;
+	text-decoration: underline;
 }
 
 /* ALL NON-SPLASH */
 
+.banner-container {
+	height: 200px;
+	width: 100%;
+	background: url("/assets/img/21/blank-banner.jpeg");
+}
+
+.banner {
+	object-fit: cover;
+	width: 100%;
+	height: 200px;
+}
+
+.banner-frost-name-container {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: inherit;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner-frost-name {
+	width: auto;
+}
+
+.banner-frost-name-img {
+	height: 80%;
+	width: auto;
+	max-width: 100%;
+}
+
+.btn-accent {
+	background-color: #654c78;
+	color: white;
+}
+
+.btn-accent:hover,
+.btn-accent:focus {
+	background-color: #573c6b;
+	color: white;
+}
+
 .name {
-    height: 200px;
-    text-align: center;
-    background: url(/assets/img/20/horizontal_smallersketch.jpeg);
-    background-size: 1000px;
+	height: 200px;
+	text-align: center;
+	/* background: url(/assets/img/20/horizontal_smallersketch.jpeg); */
+	background: url(/assets/img/21/banner.jpeg);
+	background-size: 1000px;
 }
 
 .name h1 {
-    height: 150px;
-    margin-top: 25px;
-    color: black;
-    text-indent: -99999px;
-    background: url(/assets/img/20/centeredtext_webasset_frost.png) center center no-repeat;
-    background-size: contain;
+	height: 150px;
+	margin-top: 25px;
+	color: black;
+	text-indent: -99999px;
+	background: url(/assets/img/20/centeredtext_webasset_frost.png) center center no-repeat;
+	background-size: contain;
 }
 
 .scn h2 {
-    height: 100px;
-    position: absolute;
-    top: 85px;
-    right: 0px;
-    color: black;
-    text-indent: -99999px;
-    background: url(/assets/img/core/scnlogo-clear.png) center center no-repeat;
-    background-size: contain;
+	height: 100px;
+	position: absolute;
+	top: 85px;
+	right: 0px;
+	color: black;
+	text-indent: -99999px;
+	background: url(/assets/img/core/scnlogo-clear.png) center center no-repeat;
+	background-size: contain;
 }
 
 .page {
-    margin-top: 30px;
+	margin-top: 30px;
 }
 
 img.ticket {
-    max-width: 100%;
+	max-width: 100%;
 }
 
 /* DIRECTIONS */
 
 img.map,
 img.img {
-    max-width: 100%;
+	max-width: 100%;
 }
 
 /* ARTISTS */
 
 .artist {
-    text-align: center;
+	text-align: center;
 }
 
 .artist-social {
-    text-align: center;
+	text-align: center;
 }
 
 .artist-social a {
-    font-size: 3em;
-    color: #DA6755;
+	font-size: 3em;
+	color: #654c78;
 }
 
 .artist-social a:hover {
-    color: black;
+	color: #482a5e;
 }
 
-.artist-name{
-    font-size: 50px;
+.artist-name {
+	font-size: 50px;
 }
 
 /* INFO */
 
 .sponsors {
-    text-align: center;
-    margin-bottom: 50px;
+	text-align: center;
+	margin-bottom: 50px;
 }
 
 /* BRANCHES */
 
 .man-left {
-    position: fixed;
-    height: 40%;
-    width: 60%;
-    bottom: 0;
-    left: -15px;
-    background: url(/assets/img/18/man.png) top left no-repeat;
-    background-size: contain;
+	position: fixed;
+	height: 40%;
+	width: 60%;
+	bottom: 0;
+	left: -15px;
+	background: url(/assets/img/18/man.png) top left no-repeat;
+	background-size: contain;
 }
 
 .column-left {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    /* background: url(/assets/img/19/colL.png) top left no-repeat; */
-    background-size: contain;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	/* background: url(/assets/img/19/colL.png) top left no-repeat; */
+	background-size: contain;
 }
 
 .column-right {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    /* background: url(/assets/img/19/colR.png) top right no-repeat; */
-    background-size: contain;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	/* background: url(/assets/img/19/colR.png) top right no-repeat; */
+	background-size: contain;
 }
