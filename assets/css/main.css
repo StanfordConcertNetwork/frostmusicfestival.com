@@ -276,10 +276,10 @@ b {
 }
 
 .scn h2 {
-	height: 100px;
+	height: 50px;
 	position: absolute;
-	top: 85px;
-	right: 0px;
+	top: 120px;
+	right: -10px;
 	color: black;
 	text-indent: -99999px;
 	background: url(/assets/img/core/scnlogo-clear.png) center center no-repeat;
