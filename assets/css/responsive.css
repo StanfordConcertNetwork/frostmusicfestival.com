@@ -1,81 +1,166 @@
 @media (max-width: 320px) {
-    .splash {min-height: 700px;}
+	/* .splash {
+		min-height: 700px;
+	} */
 
-    .splash h3 {font-size: 13px;}
+	.splash h3 {
+		font-size: 13px;
+	}
 
-    .navbar .navbar-nav li {margin: 0 0;}
-    .navbar .navbar-nav li a {font-size: 14px; padding: 0 1px;}
+	.navbar.navbar-fixed-bottom {
+		height: 100px;
+	}
 
-    .name h1 {font-size: 30px;}
+	.navbar .navbar-nav li {
+		margin: 0 0;
+	}
+	.navbar .navbar-nav li a {
+		font-size: 14px;
+		padding: 0 1px;
+	}
 
-    .man-left {display: none;}
+	.name h1 {
+		font-size: 30px;
+	}
+
+	.man-left {
+		display: none;
+	}
 }
 
-
 @media (min-width: 321px) {
-    .splash {min-height: 1300px;}
+	/* .splash {min-height: 1300px;} */
 
-    .splash h3 {font-size: 15px;}
+	.splash h3 {
+		font-size: 15px;
+	}
 
-    .navbar .navbar-nav li {margin: 0 0;}
-    .navbar .navbar-nav li a {font-size: 20px; padding: 0 2px;}
+	.navbar.navbar-fixed-bottom {
+		height: 100px;
+	}
 
-    .name h1 {font-size: 30px;}
+	.navbar .navbar-nav li {
+		margin: 0 0;
+	}
+	.navbar .navbar-nav li a {
+		font-size: 20px;
+		padding: 0 2px;
+	}
 
-    .man-left {display: none;}
+	.name h1 {
+		font-size: 30px;
+	}
+
+	.man-left {
+		display: none;
+	}
 }
 
 @media (min-width: 520px) and (min-height: 600px) {
-    .splash {min-height: 1300px;}
+	/* .splash {
+		min-height: 1300px;
+	} */
 
-    .splash h3 {font-size: 15px;}
+	.splash h3 {
+		font-size: 15px;
+	}
 
-    .navbar .navbar-nav li {margin: 0 10px;}
-    .navbar .navbar-nav li a {font-size: 22px; padding: 0 5px;}
+	.navbar.navbar-fixed-bottom {
+		height: 100px;
+	}
 
-    .name h1 {font-size: 30px;}
+	.navbar .navbar-nav li {
+		margin: 0 10px;
+	}
+	.navbar .navbar-nav li a {
+		font-size: 22px;
+		padding: 0 5px;
+	}
 
-    .man-left {display: initial;}
+	.name h1 {
+		font-size: 30px;
+	}
+
+	.man-left {
+		display: initial;
+	}
 }
 
 @media (min-width: 768px) and (min-height: 675px) {
-    .splash {min-height: 1300px;}
+	/* .splash {
+		min-height: 1300px;
+	} */
 
-    .splash h3 {font-size: 20px;}
+	.splash h3 {
+		font-size: 20px;
+	}
 
-    .navbar .navbar-nav li {margin: 0 15px;}
-    .navbar .navbar-nav li a {font-size: 30px;}
+	.navbar .navbar-nav li {
+		margin: 0 15px;
+	}
+	.navbar .navbar-nav li a {
+		font-size: 30px;
+	}
 
-    .name h1 {font-size: 35px;}
+	.name h1 {
+		font-size: 35px;
+	}
 
-    .man-left {display: initial;}
+	.man-left {
+		display: initial;
+	}
 }
 
 @media (min-width: 992px) and (min-height: 750px) {
-    .splash {min-height: 1300px;}
+	/* .splash {
+		min-height: 1300px;
+	} */
 
-    .splash h3 {font-size: 20px;}
+	.splash h3 {
+		font-size: 20px;
+	}
 
-    .navbar .navbar-nav li {margin: 0 25px;}
-    .navbar .navbar-nav li a {font-size: 32px;}
+	.navbar .navbar-nav li {
+		margin: 0 25px;
+	}
+	.navbar .navbar-nav li a {
+		font-size: 32px;
+	}
 
-    .name h1 {font-size: 45px;}
+	.name h1 {
+		font-size: 45px;
+	}
 
-    .man-left {display: initial;}
+	.man-left {
+		display: initial;
+	}
 }
 
 @media (min-width: 1200px) and (min-height: 850px) {
-    .splash {min-height: 950px;}
+	/* .splash {
+		min-height: 950px;
+	} */
 
-    .splash h3 {font-size: 25px;}
+	.splash h3 {
+		font-size: 25px;
+	}
 
-    .navbar .navbar-nav li {margin: 0 30px;}
-    .navbar .navbar-nav li a {font-size: 35px;}
+	.navbar .navbar-nav li {
+		margin: 0 30px;
+	}
+	.navbar .navbar-nav li a {
+		font-size: 35px;
+	}
 
-    .name h1 {font-size: 50px;}
+	.name h1 {
+		font-size: 50px;
+	}
 
-    .man-left {display: initial;}
+	.man-left {
+		display: initial;
+	}
 
-
-    .title h1 { margin-top: -100px; }
+	.title h1 {
+		margin-top: -100px;
+	}
 }

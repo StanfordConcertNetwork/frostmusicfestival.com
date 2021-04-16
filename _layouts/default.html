@@ -20,6 +20,8 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="/assets/js/main.js?v=2"></script>
+
+    <script src="https://kit.fontawesome.com/b885f71f5e.js" crossorigin="anonymous"></script>
     {% include analytics.html %}
 </head>
 
@@ -51,10 +53,18 @@
 
 
     {% if page.url != "/" %}
-    <div class="name">
+    <!-- <div class="name">
         <div class="container">
             <a href="/">
                 <h1>Frost Music &amp; Arts Festival</h1>
+            </a>
+        </div>
+    </div> -->
+    <div class="banner-container">
+        <!-- <img class="banner" src="/assets/img/21/blank-banner.jpeg" />  -->
+        <div class="banner-frost-name-container">
+            <a href="/" class="banner-frost-name">
+                <img class="banner-frost-name-img" src="/assets/img/21/frost.png">
             </a>
         </div>
     </div>
@@ -76,8 +86,11 @@
                 <li {% if page.url contains "/artists" %} class="active" {% endif %}>
                     <a href="/artists">Artists</a>
                 </li>
-                <li {% if page.url contains "/directions" %} class="active" {% endif %}>
+                <!-- <li {% if page.url contains "/directions" %} class="active" {% endif %}>
                     <a href="/directions">Directions</a>
+                </li> -->
+                <li {% if page.url contains "/studentart" %} class="active" {% endif %}>
+                    <a href="/studentart">Student Art</a>
                 </li>
                 <li {% if page.url contains "/info" %} class="active" {% endif %}>
                     <a href="/info">Info</a>
