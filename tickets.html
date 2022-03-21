@@ -4,28 +4,94 @@ layout: default
 
 <div class="bird-right"></div>
 
-
-<div class="modal fade" id="js-tickets">
+<!---STUDENT TICKETS MODAL-->
+<div class="modal fade" id="js-student-tickets">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-body" style="text-align: center">
         <div id="js-like">
-            <p class="lead">To continue, please like<br>Stanford Concert Network's Facebook page.</p>
-            <div class="row">
-                <div class="col-sm-2 col-sm-offset-1 col-xs-3">
-                    <img src="/assets/img/core/scnlogo-sm.jpg" style="width: 100%">
-                </div>
-                <div class="col-sm-8 col-xs-4">
-                    <div class="fb-like" data-href="https://facebook.com/stanfordconcertnetwork" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="false" style="width: 100%; overflow: hidden"></div>
-                </div>
+          <p class="lead">
+            To continue, please like<br />Stanford Concert Network's Facebook
+            page.
+          </p>
+          <div class="row">
+            <div class="col-sm-2 col-sm-offset-1 col-xs-3">
+              <img src="/assets/img/core/scnlogo-sm.jpg" style="width: 100%" />
             </div>
-            <br>
+            <div class="col-sm-8 col-xs-4">
+              <div
+                class="fb-like"
+                data-href="https://facebook.com/stanfordconcertnetwork"
+                data-layout="standard"
+                data-action="like"
+                data-size="large"
+                data-show-faces="true"
+                data-share="false"
+                style="width: 100%; overflow: hidden"
+              ></div>
+            </div>
+          </div>
+          <br />
         </div>
         <div id="js-load">
-            <img src="/assets/img/core/loading.gif" style="height: 100px">
+          <img src="/assets/img/core/loading.gif" style="height: 100px" />
         </div>
         <div id="js-buy" class="hidden">
-            <a id="js-buy-link" class="btn btn-lg btn-accent" style="font-size: 1.5em;" href="https://www.eventbrite.com/e/2021-frost-music-arts-festival-tickets-149641157731" target="blank">Purchase Stanford Affiliate Tickets</a>
+          <a
+            id="js-buy-link"
+            class="btn btn-lg btn-accent"
+            style="font-size: 1.5em"
+            href="https://www.eventbrite.com/e/2021-frost-music-arts-festival-tickets-149641157731"
+            target="blank"
+            >Purchase Stanford Affiliate Tickets</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!---GENERAL TICKETS MODAL-->
+<div class="modal fade" id="js-general-tickets">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body" style="text-align: center">
+        <div id="js-like">
+          <p class="lead">
+            To continue, please like<br />Stanford Concert Network's Facebook
+            page.
+          </p>
+          <div class="row">
+            <div class="col-sm-2 col-sm-offset-1 col-xs-3">
+              <img src="/assets/img/core/scnlogo-sm.jpg" style="width: 100%" />
+            </div>
+            <div class="col-sm-8 col-xs-4">
+              <div
+                class="fb-like"
+                data-href="https://facebook.com/stanfordconcertnetwork"
+                data-layout="standard"
+                data-action="like"
+                data-size="large"
+                data-show-faces="true"
+                data-share="false"
+                style="width: 100%; overflow: hidden"
+              ></div>
+            </div>
+          </div>
+          <br />
+        </div>
+        <div id="js-load">
+          <img src="/assets/img/core/loading.gif" style="height: 100px" />
+        </div>
+        <div id="js-buy" class="hidden">
+          <a
+            id="js-buy-link"
+            class="btn btn-lg btn-accent"
+            style="font-size: 1.5em"
+            href="https://www.eventbrite.com/e/2021-frost-music-arts-festival-tickets-149641157731"
+            target="blank"
+            >Purchase General Tickets</a
+          >
         </div>
       </div>
     </div>
@@ -33,9 +99,8 @@ layout: default
 </div>
 
 <div class="container page">
-
-    <!-- 2020 live ticketing info: -->
-     <!-- <div class="row">
+  <!-- 2020 live ticketing info: -->
+  <!-- <div class="row">
         <div class="col-md-6">
             <h3>Stanford Tickets</h3>
 
@@ -84,7 +149,7 @@ layout: default
         </div>
     </div> -->
 
-    <!-- <br>
+  <!-- <br>
 
     <div class="row">
         <div class="col-md-9">
@@ -93,16 +158,38 @@ layout: default
         </div>
     </div> -->
 
-    <div class="row">
-        <div class="col-md-9">
-            <h3>Ticketing for virtual Frost</h3>
-            <p>The tickets for Frost Music Festival this year are free! However, we are unfortunately only able to offer tickets to Stanford affiliates -- please use your official Stanford email to purchase your free ticket. If you have any questions about what that means, visit our <a href="/info">FAQ page.</a></p>
-            <p>Claim your free ticket below. We can't wait to see you online!</p>
+  <div class="row">
+    <div class="col-md-9">
+      <h3>Ticketing for virtual Frost</h3>
+      <p>
+        The tickets for Frost Music Festival this year are free! However, we are
+        unfortunately only able to offer tickets to Stanford affiliates --
+        please use your official Stanford email to purchase your free ticket. If
+        you have any questions about what that means, visit our
+        <a href="/info">FAQ page.</a>
+      </p>
+      <p>Claim your free ticket below. We can't wait to see you online!</p>
 
-            <a id="js-start" class="btn btn-lg btn-accent" href="https://live.stanford.edu/calendar/may-2020/mac-demarco" data-target="#js-tickets" data-toggle="modal" style="font-size: 1.5em">Claim Your Ticket</a>
-        </div>
+      <a
+        id="js-start"
+        class="btn btn-lg btn-accent"
+        href="https://live.stanford.edu/calendar/may-2020/mac-demarco"
+        data-target="#js-student-tickets"
+        data-toggle="modal"
+        style="font-size: 1.5em"
+        >Student Tickets</a
+      >
+      <a
+        id="js-start"
+        class="btn btn-lg btn-accent"
+        href="https://live.stanford.edu/calendar/may-2020/mac-demarco"
+        data-target="#js-general-tickets"
+        data-toggle="modal"
+        style="font-size: 1.5em"
+        >General Audience</a
+      >
     </div>
+  </div>
 
-    <br><br>
-
+  <br /><br />
 </div>
