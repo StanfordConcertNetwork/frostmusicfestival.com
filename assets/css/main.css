@@ -21,6 +21,27 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: Merel;
+  src: url("/assets/fonts/Merel.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: MerelLight;
+  src: url("/assets/fonts/Merel\ Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: MerelBold;
+  src: url("/assets/fonts/Merel\ Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
 /* SITE WIDE */
 
 html {
@@ -33,14 +54,21 @@ html {
 }
 
 body {
-  font-family: Avenir, "Helvetica Neue", helvetica, sans-serif;
+  font-family: Merel, "Helvetica Neue", helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.flex-reverse {
+
 }
 
 h1,
 h2,
 h3,
 b {
-  font-family: AvenirBold, "Helvetice Neue", Helvetica, sans-serif;
+  font-family: MerelBold, "Helvetice Neue", Helvetica, sans-serif;
 }
 
 /* SPLASH */
@@ -95,7 +123,7 @@ b {
 
 #lineup-scroll-btn {
   text-align: center;
-  color: #fd9b61;
+  color: #F9E04F;
   cursor: pointer;
   font-size: 40px;
 }
@@ -105,17 +133,18 @@ b {
 }
 
 #splash-background-img-mobile {
-  width: 100%;
+  height: 100%;
+  width: auto;
+  flex: auto;
 }
 
 .splash {
-  background: url(/assets/img/21/background-medium.png) no-repeat center center
-    fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
+  flex: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: #F9E04F;
+  align-items: center;
 }
 
 .img-container {
@@ -161,53 +190,56 @@ b {
   height: 150px;
 }
 
-.navbar {
-  height: 100px;
-  background-color: #fd9b61;
+.nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #F9E04F;
   clear: both;
   margin: 0;
   padding: 0;
   border-radius: 0px;
+  /* font-size: 35px; */
 }
 
-.navbar .navbar-nav {
-  margin: 0;
+.navbar-nav {
+  margin: 10px;
+  flex: auto;
+  padding: 0;
 
   /* h center */
   text-align: center;
-  float: none;
 }
 
-.navbar .container,
-.navbar .navbar-nav,
-.navbar .navbar-nav li {
-  /* v center */
-  height: 100%;
+.nav-bottom {
+  flex-direction: column-reverse;
 }
 
-.navbar .navbar-nav li:before {
+.navbar-nav li:before {
   content: "";
   display: inline-block;
   height: 100%;
   vertical-align: middle;
 }
 
-.navbar .navbar-nav li {
+.navbar-nav li {
   /* h center */
   display: inline-block;
   float: none;
+  padding: 0 10px;
 }
 
-.navbar .navbar-nav li a {
-  color: white;
-  font-family: Avenir, "Helvetice Neue", Helvetica, sans-serif;
+.navbar-nav li a {
+  color: black;
+  font-family: MerelBold, "Helvetice Neue", Helvetica, sans-serif;
+  font-weight: bold;
   display: inline-block;
   vertical-align: middle;
 }
 
-.navbar .navbar-nav li a:hover,
-.navbar .navbar-nav li.active a,
-.navbar .navbar-nav li a:focus {
+.navbar-nav li a:hover,
+.navbar-nav li.active a,
+.navbar-nav li a:focus {
   background-color: initial;
   text-decoration: underline;
 }
@@ -215,36 +247,36 @@ b {
 /* ALL NON-SPLASH */
 
 .banner-container {
-  height: 200px;
+  flex: 0;
   width: 100%;
-  background: url("/assets/img/21/blank-banner.jpeg");
+  background: url("/assets/img/22/blankbanner.png");
+  max-height: 15%;
 }
 
 .banner {
   object-fit: cover;
   width: 100%;
-  height: 200px;
+  height: auto;
 }
 
-.banner-frost-name-container {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: inherit;
+.first {
+  margin-top: 0;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
+
+.banner-frost-name {
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.banner-frost-name {
-  width: auto;
-}
-
 .banner-frost-name-img {
-  height: 80%;
-  width: auto;
+  height: 100%;
   max-width: 100%;
 }
 
@@ -290,6 +322,8 @@ b {
 
 .page {
   margin-top: 30px;
+  padding: 0 30px;
+  flex: auto;
 }
 
 img.ticket {
@@ -311,6 +345,9 @@ img.img {
 
 .artist-social {
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .artist-social a {
