@@ -194,7 +194,7 @@ b {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: #F9E04F;
+  background-color: #8a6cba;
   clear: both;
   margin: 0;
   padding: 0;
@@ -281,13 +281,13 @@ b {
 }
 
 .btn-accent {
-  background-color: #654c78;
+  background-color: #ed6184;
   color: white;
 }
 
 .btn-accent:hover,
 .btn-accent:focus {
-  background-color: #573c6b;
+  background-color: #d35675;
   color: white;
 }
 
@@ -352,11 +352,11 @@ img.img {
 
 .artist-social a {
   font-size: 3em;
-  color: #654c78;
+  color: #ed6184;
 }
 
 .artist-social a:hover {
-  color: #482a5e;
+  color: #d35675;
 }
 
 .artist-name {
