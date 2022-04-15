@@ -1,30 +1,6 @@
-@media (max-width: 320px) {
-	/* .splash {
-		min-height: 700px;
-	} */
-
-	.splash h3 {
-		font-size: 13px;
-	}
-
-	.navbar.navbar-fixed-bottom {
-		height: 100px;
-	}
-
-	.navbar .navbar-nav li {
-		margin: 0 0;
-	}
-	.navbar .navbar-nav li a {
-		font-size: 14px;
-		padding: 0 1px;
-	}
-
-	.name h1 {
-		font-size: 30px;
-	}
-
-	.man-left {
-		display: none;
+@media (max-width: 375px) {
+	.nav {
+		font-size: 25px;
 	}
 }
 
@@ -35,16 +11,8 @@
 		font-size: 15px;
 	}
 
-	.navbar.navbar-fixed-bottom {
-		height: 100px;
-	}
-
-	.navbar .navbar-nav li {
-		margin: 0 0;
-	}
-	.navbar .navbar-nav li a {
-		font-size: 20px;
-		padding: 0 2px;
+	.nav {
+		font-size: 25px;
 	}
 
 	.name h1 {
@@ -65,16 +33,8 @@
 		font-size: 15px;
 	}
 
-	.navbar.navbar-fixed-bottom {
-		height: 100px;
-	}
-
-	.navbar .navbar-nav li {
-		margin: 0 10px;
-	}
-	.navbar .navbar-nav li a {
-		font-size: 22px;
-		padding: 0 5px;
+	.nav {
+		font-size: 35px;
 	}
 
 	.name h1 {
@@ -93,13 +53,6 @@
 
 	.splash h3 {
 		font-size: 20px;
-	}
-
-	.navbar .navbar-nav li {
-		margin: 0 15px;
-	}
-	.navbar .navbar-nav li a {
-		font-size: 30px;
 	}
 
 	.name h1 {
@@ -149,7 +102,7 @@
 		margin: 0 30px;
 	}
 	.navbar .navbar-nav li a {
-		font-size: 35px;
+		font-size: 50px;
 	}
 
 	.name h1 {
