@@ -25,7 +25,7 @@
     {% include analytics.html %}
 </head>
 
-<body class="{% if page.url == '/' %}nav-bottom{% endif %}">
+<body>
     <div id="fb-root"></div>
     <script>
         function revealBuy() {
@@ -54,9 +54,11 @@
 
     {% if page.url != "/" %}
     <div class="banner-container">
+        <div class="banner-frost-name-container">
             <a href="/" class="banner-frost-name">
-                <img class="banner-frost-name-img" src="/assets/img/22/banner.png">
+                <img class="banner-frost-name-img" src="/assets/img/21/frost.png">
             </a>
+        </div>
     </div>
     <div class="scn">
         <div class="container">
@@ -67,25 +69,27 @@
     </div>
     {% endif %}
 
-    <div class="nav container" role="navigation">
-        <ul class="navbar-nav">
-            <li {% if page.url contains "/tickets" %} class="active" {% endif %}>
-                <a href="/tickets">Tickets</a>
-            </li>
-            <li {% if page.url contains "/lineup" %} class="active" {% endif %}>
-                <a href="/lineup">Lineup</a>
-            </li>
-            <!-- <li {% if page.url contains "/directions" %} class="active" {% endif %}>
-                <a href="/directions">Directions</a>
-            </li> -->
-            <li {% if page.url contains "/studentart" %} class="active" {% endif %}>
-                <a href="/studentart">Art</a>
-            </li>
-            <li {% if page.url contains "/info" %} class="active" {% endif %}>
-                <a href="/info">Info</a>
-            </li>
-        </ul>
-    </div>
+    <nav class="navbar {% if page.url == "/" %} navbar-fixed-bottom {% endif %}" role="navigation">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li {% if page.url contains "/tickets" %} class="active" {% endif %}>
+                    <a href="/tickets">Tickets</a>
+                </li>
+                <li {% if page.url contains "/lineup" %} class="active" {% endif %}>
+                    <a href="/lineup">Lineup</a>
+                </li>
+                <!-- <li {% if page.url contains "/directions" %} class="active" {% endif %}>
+                    <a href="/directions">Directions</a>
+                </li> -->
+                <li {% if page.url contains "/studentart" %} class="active" {% endif %}>
+                    <a href="/studentart">Art</a>
+                </li>
+                <li {% if page.url contains "/info" %} class="active" {% endif %}>
+                    <a href="/info">Info</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
 
     {{ content }}
