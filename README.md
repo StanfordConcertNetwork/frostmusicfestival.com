@@ -13,6 +13,6 @@ Website for Frost Music Festival
    gem install bundler jekyll
    ```
 4. Install bundler packages:
-   - `bundle-2.7 install`
+   - `bundle install`
 5. Now you can start the server!
    - `bundle-2.7 exec jekyll serve --livereload`
