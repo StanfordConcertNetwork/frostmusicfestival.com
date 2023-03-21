@@ -133,9 +133,8 @@ b {
 }
 
 #frost-logo {
-  max-width: 40%;
   max-height: 15vh;
-  height: auto;
+  max-width: 80%;
 }
 
 #splash-background-img-mobile {
