@@ -50,7 +50,7 @@ html {
 
 body,
 html {
-  height: 100%;
+  min-height: 100vh;
 }
 
 body {
@@ -58,10 +58,6 @@ body {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
-}
-
-.flex-reverse {
-
 }
 
 h1,
@@ -132,10 +128,18 @@ b {
   width: 100%;
 }
 
+#frost-logo {
+  max-width: 40%;
+  max-height: 15vh;
+  height: auto;
+}
+
 #splash-background-img-mobile {
-  height: 100%;
-  width: auto;
-  flex: auto;
+  max-height: 80vh;
+  max-width: 80%;
+  /* width: auto; */
+  /* flex: auto; */
+  border: 10px solid #b1cbff;
 }
 
 .splash {
@@ -143,8 +147,12 @@ b {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  background-color: #F9E04F;
+  background-color: black;
+  /* background-image: url("../img/23/texturebackground2.png"); */
+  background-repeat: repeat;
+  background-size: 15px;
   align-items: center;
+  padding: 3vh 5%;
 }
 
 .img-container {
