@@ -44,13 +44,17 @@
 
 /* SITE WIDE */
 
+:root{
+  background-color: black;
+}
+
 html {
   position: relative;
 }
 
 body,
 html {
-  height: 100%;
+  min-height: 100vh;
 }
 
 body {
@@ -58,10 +62,6 @@ body {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
-}
-
-.flex-reverse {
-
 }
 
 h1,
@@ -132,10 +132,17 @@ b {
   width: 100%;
 }
 
+#frost-logo {
+  max-height: 15vh;
+  max-width: 80%;
+}
+
 #splash-background-img-mobile {
-  height: 100%;
-  width: auto;
-  flex: auto;
+  max-height: 80vh;
+  max-width: 80%;
+  /* width: auto; */
+  /* flex: auto; */
+  border: 15px solid #b1cbff;
 }
 
 .splash {
@@ -143,8 +150,12 @@ b {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  background-color: #F9E04F;
+  /* background-color: black; */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/img/23/website-bg.png");
+  /* background-repeat: repeat; */
+  background-size: cover;
   align-items: center;
+  padding: 3vh 5%;
 }
 
 .img-container {
